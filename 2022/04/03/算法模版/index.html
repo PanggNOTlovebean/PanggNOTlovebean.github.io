@@ -79,15 +79,15 @@
 
 
 
-<meta name="description" content="约定变量命名：索引 i j k  值 val  计数cnt 路径p path 访问位vis 常数 MOD MAX  坐标 x y z 数组大小 m n TreeMap TreeSet 由红黑树实现有序map、set 12345678910111213141516171819202122232425262728293031int MAX&#x3D;0x3f3f3f3f; &#x2F;&#x2F;　最大整数 同时还能避免两数相加溢">
+<meta name="description" content="算法笔试常见约定、API、模版">
 <meta property="og:type" content="article">
 <meta property="og:title" content="算法模版">
 <meta property="og:url" content="http://example.com/2022/04/03/%E7%AE%97%E6%B3%95%E6%A8%A1%E7%89%88/index.html">
 <meta property="og:site_name" content="LP&#39;s Blog">
-<meta property="og:description" content="约定变量命名：索引 i j k  值 val  计数cnt 路径p path 访问位vis 常数 MOD MAX  坐标 x y z 数组大小 m n TreeMap TreeSet 由红黑树实现有序map、set 12345678910111213141516171819202122232425262728293031int MAX&#x3D;0x3f3f3f3f; &#x2F;&#x2F;　最大整数 同时还能避免两数相加溢">
+<meta property="og:description" content="算法笔试常见约定、API、模版">
 <meta property="og:locale">
 <meta property="article:published_time" content="2022-04-03T15:42:13.000Z">
-<meta property="article:modified_time" content="2022-08-04T15:51:15.632Z">
+<meta property="article:modified_time" content="2022-08-04T16:58:25.412Z">
 <meta property="article:author" content="Pan Li">
 <meta property="article:tag" content="Algorithm">
 <meta name="twitter:card" content="summary">
@@ -407,7 +407,10 @@
       
 
       
-        <h3 id="约定"><a href="#约定" class="headerlink" title="约定"></a>约定</h3><p>变量命名：索引 <strong>i j k</strong>  值 <strong>val</strong>  计数<strong>cnt</strong> 路径<strong>p path</strong> 访问位<strong>vis</strong> 常数 <strong>MOD</strong> <strong>MAX</strong>  坐标 <strong>x y z</strong> 数组大小 <strong>m n</strong></p>
+        <p>算法笔试常见约定、API、模版</p>
+<span id="more"></span>
+
+<h3 id="约定"><a href="#约定" class="headerlink" title="约定"></a>约定</h3><p>变量命名：索引 <strong>i j k</strong>  值 <strong>val</strong>  计数<strong>cnt</strong> 路径<strong>p path</strong> 访问位<strong>vis</strong> 常数 <strong>MOD</strong> <strong>MAX</strong>  坐标 <strong>x y z</strong> 数组大小 <strong>m n</strong></p>
 <p><strong>TreeMap TreeSet</strong> 由红黑树实现有序map、set</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> MAX=<span class="number">0x3f3f3f3f</span>; <span class="comment">//　最大整数 同时还能避免两数相加溢出int表示范围</span></span><br><span class="line">    </span><br><span class="line"><span class="type">int</span> <span class="title function_">getIndex</span><span class="params">(<span class="type">int</span> x,<span class="type">int</span> y)</span>&#123;</span><br><span class="line">    <span class="keyword">return</span> x*col+y;</span><br><span class="line">    </span><br><span class="line">String.charAt(idx); <span class="comment">// String访问索引</span></span><br><span class="line"></span><br><span class="line">Collection.sort(object,compertor);</span><br><span class="line"></span><br><span class="line">Arrays.toString(arr);<span class="comment">// 输出数组用于调试 </span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 数组、列表 之间的转换</span></span><br><span class="line">Integer[] nums=lst.toArray(); <span class="comment">//List转数组</span></span><br><span class="line">List&lt;Integer&gt; list=nums.asList(); <span class="comment">//数组转List</span></span><br><span class="line"><span class="comment">// 字符串、列表 之间的转换</span></span><br><span class="line"><span class="type">char</span>[] cs=str.toCharArray();<span class="comment">//String转char数组</span></span><br><span class="line">String s=String.valueOf(cs);<span class="comment">// char数组转String</span></span><br><span class="line">    </span><br><span class="line"><span class="comment">//linkedList实现了Deque接口 因此有push() poll() peek() getFirst() getLast() addLast() addFirst() removeFirst() removeLast() removeLast() removeFirst() </span></span><br><span class="line">    </span><br><span class="line"><span class="comment">// Character 常用方法</span></span><br><span class="line">Character.isLetter();</span><br><span class="line">Character.isDigit();</span><br><span class="line">Character.isUpperCase(); Character.isLowerCase();</span><br><span class="line">Character.toUpperCase(); Character.toLowerCase();</span><br><span class="line">Character.isWhiteSpace();</span><br><span class="line"></span><br><span class="line">    </span><br><span class="line"><span class="comment">// StringBuilder 常用方法</span></span><br><span class="line">sb.insert(idx,ch)</span><br><span class="line">sb.setCharAt(idx,ch) <span class="comment">//一般使用char数组做修改 然后再由char数组转字符串</span></span><br></pre></td></tr></table></figure>
 
