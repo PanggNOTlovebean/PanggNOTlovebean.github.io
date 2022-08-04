@@ -1,0 +1,2987 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="LP&#39;s Blog">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="LP&#39;s Blog">
+<meta property="og:locale">
+<meta property="article:author" content="Pan Li">
+<meta property="article:tag" content="subsss">
+<meta name="twitter:card" content="summary">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://example.com/"/>
+
+
+
+
+
+  <title>LP's Blog</title>
+  
+
+
+
+
+
+
+
+
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">LP's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">懂的越多方知懂的越少</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/06/17/%E5%AE%9E%E9%AA%8C%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LP's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2022/06/17/%E5%AE%9E%E9%AA%8C%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" itemprop="url">实验常用命令</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-06-17T21:53:23+08:00">
+                2022-06-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E8%B8%A9%E5%9D%91/" itemprop="url" rel="index">
+                    <span itemprop="name">踩坑</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  1.6k 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  7 分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="linux-pip-镜像"><a href="#linux-pip-镜像" class="headerlink" title="linux pip 镜像"></a>linux pip 镜像</h3><p>能用conda就别用pip</p>
+<p>找到~&#x2F;.pip&#x2F;pip.conf,如果不存在就创建<br>在文件里写入</p>
+<blockquote>
+<p>[global]<br>timeout &#x3D; 10<br>index-url &#x3D;  <a target="_blank" rel="noopener" href="http://pypi.douban.com/simple/">http://pypi.douban.com/simple/</a><br>extra-index-url&#x3D;  <a target="_blank" rel="noopener" href="http://mirrors.aliyun.com/pypi/simple/">http://mirrors.aliyun.com/pypi/simple/</a><br>[install]<br>trusted-host&#x3D;<br>mirrors.aliyun.com<br>pypi.douban.com</p>
+</blockquote>
+<h3 id="指定GPU运行（解决某张卡显存不足问题）"><a href="#指定GPU运行（解决某张卡显存不足问题）" class="headerlink" title="指定GPU运行（解决某张卡显存不足问题）"></a>指定GPU运行（解决某张卡显存不足问题）</h3><p>一、命令行运行python程序时</p>
+<p>1、首先查看哪些GPU空闲，nvidia-smi显示当前GPU使用情况。</p>
+<p><code>nvidia-smi</code></p>
+<p>每 10s 显示一次GPU使用情况：</p>
+<p><code>watch -n 10 nvidia-smi</code></p>
+<p>2、然后指定空闲的GPU运行python程序。</p>
+<p><code>CUDA_VISIBLE_DEVICES=0,2,3 python test.py</code></p>
+<p>二、在python程序中指定GPU</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line">os.environ[<span class="string">&quot;CUDA_VISIBLE_DEVICES&quot;</span>] = <span class="string">&quot;0,2,3&quot;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="SSH-Server安装运行"><a href="#SSH-Server安装运行" class="headerlink" title="SSH Server安装运行"></a>SSH Server安装运行</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">apt-get update</span><br><span class="line">apt-get install openssh-server</span><br><span class="line">apt-get install vim</span><br><span class="line">vim /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
+
+<p>修改文件内容：</p>
+<blockquote>
+<p>permitrootlogin yes</p>
+</blockquote>
+<p><code>passwd</code></p>
+<p><code>service ssh start</code></p>
+<p><strong>windows免密登陆：</strong></p>
+<p>将windows 的公钥C:\Users\pangg.ssh\id_rsa.pub 丢到 .ssh&#x2F;authorized_keys里</p>
+<p><strong>github的ssh配置：</strong></p>
+<p>生成公钥： <code>ssh-keygen -t ed25519 -C &quot;904399787@qq.com&quot;</code>  再把公钥扔到github 配置里</p>
+<p>设置git环境用户名： <code>git config --global user.name “PanggNOTlovebean”</code></p>
+<p>设置git环境邮箱：    <code>git config --global user.email &quot;904399787@qq.com&quot;</code></p>
+<h3 id="安装-conda"><a href="#安装-conda" class="headerlink" title="安装 conda"></a>安装 conda</h3><p><strong>如果是基于pytorch镜像创建的容器 直接用conda init 后就有了不用安装</strong></p>
+<p><code>wget -c https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh</code></p>
+<p><code>chmod 777 Miniconda3-latest-Linux-x86_64.sh</code></p>
+<p><code>bash Miniconda3-latest-Linux-x86_64.sh</code></p>
+<h3 id="conda-jupyter-环境"><a href="#conda-jupyter-环境" class="headerlink" title="conda jupyter 环境"></a>conda jupyter 环境</h3><p><code>pip install ipykernel</code></p>
+<p><code>python -m ipykernel install --user --name woniu --display-name &quot;automl&quot;</code></p>
+<h3 id="linux弔命令"><a href="#linux弔命令" class="headerlink" title="linux弔命令"></a>linux弔命令</h3><p>查看文件个数</p>
+<p><code>ls -l |grep &quot;^-&quot;|wc -l</code></p>
+<p>杀进程</p>
+<p><code>kill -9 [id]</code></p>
+<h3 id="找内鬼-findContainer"><a href="#找内鬼-findContainer" class="headerlink" title="找内鬼 findContainer"></a>找内鬼 findContainer</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">vim ~/.bashrc</span><br><span class="line">export PATH=&quot;/home/ubuntu/bin:$PATH&quot;</span><br><span class="line">source ~/.bashrc</span><br><span class="line">findContainer</span><br></pre></td></tr></table></figure>
+
+<h3 id="Screen-后台运行"><a href="#Screen-后台运行" class="headerlink" title="Screen 后台运行"></a>Screen 后台运行</h3><p>安装: <code>apt-get install screen</code></p>
+<p>创建: <code>screen -US name</code></p>
+<p>后台执行并退出当前 ctrl a+d</p>
+<p>查看所有<code>screen -ls</code></p>
+<p>重新进入<code> screen -r name</code></p>
+<p>删除 <code>screen -X -S name quit</code></p>
+<p>删除所有dead的screen： <code>screen -wipe</code></p>
+<p>关闭所有screen</p>
+<blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">&gt;</span><span class="language-bash">screen -<span class="built_in">ls</span>|awk <span class="string">&#x27;NR&gt;=2&amp;&amp;NR&lt;=20&#123;print $1&#125;&#x27;</span>|awk <span class="string">&#x27;&#123;print &quot;screen -S &quot;$1&quot; -X quit&quot;&#125;&#x27;</span>|sh</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+<h3 id="keras-设置动态显存"><a href="#keras-设置动态显存" class="headerlink" title="keras 设置动态显存"></a>keras 设置动态显存</h3><p>keras默认占满一张卡</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> tensorflow <span class="keyword">as</span> tf</span><br><span class="line">gpus = tf.config.experimental.list_physical_devices(<span class="string">&#x27;GPU&#x27;</span>)</span><br><span class="line"><span class="keyword">if</span> gpus:</span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">   <span class="keyword">for</span> gpu <span class="keyword">in</span> gpus:</span><br><span class="line">       tf.config.experimental.set_memory_growth(gpu, <span class="literal">True</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">except</span> RuntimeError <span class="keyword">as</span> e:</span><br><span class="line">	<span class="built_in">print</span>(e)</span><br></pre></td></tr></table></figure>
+
+<h3 id="批量删除None镜像"><a href="#批量删除None镜像" class="headerlink" title="批量删除None镜像"></a>批量删除None镜像</h3><p><code>docker images | grep none | awk &#39;&#123;print $3&#125;&#39; | xargs docker rmi</code></p>
+<h3 id="容器内的系统语言"><a href="#容器内的系统语言" class="headerlink" title="容器内的系统语言"></a>容器内的系统语言</h3><p><code>export LANG=zh_CN.UTF-8</code></p>
+<p>每次进去都得重新来一遍 目前改默认没成功过</p>
+<h3 id="容器创建"><a href="#容器创建" class="headerlink" title="容器创建"></a>容器创建</h3><p><code>docker run --gpus all --shm-size 32G -itd --name=pangg_torch_1.9 -p 50022:22 -p 50066:6006 -p 50088:8888  -v /data2/lipan:/data pytorch/pytorch:1.9.0-cuda11.1-cudnn8-devel</code></p>
+<p><code>docker run --gpus all --shm-size 32G -itd --name=lipan -p 51022:22 -p 51006:6006 -p 51088:8888  -v /data1/lipan:/data pangg/wudi</code></p>
+<h3 id="Python3报错处理UnicodeEncodeError-‘ascii’"><a href="#Python3报错处理UnicodeEncodeError-‘ascii’" class="headerlink" title="Python3报错处理UnicodeEncodeError: ‘ascii’"></a>Python3报错处理UnicodeEncodeError: ‘ascii’</h3><p>方法一：设置系统所用编码为utf-8</p>
+<p>既然问题是系统语言编码所致，那我们在运行前把LC_ALL等环境变量改为utf-8即可；实现的方式有多种，最简单的就是在运行前export。</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export LC_ALL=&quot;en_US.utf8&quot;</span><br></pre></td></tr></table></figure>
+
+<p>方法二：直接在Python中重新设置标准输出编码</p>
+<p>这种方法直接在Python代码中改，是与Python最契合的做法，脚本文件形式时特别推荐</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="keyword">import</span> codecs</span><br><span class="line"></span><br><span class="line">sys.stdout = codecs.getwriter(<span class="string">&quot;utf-8&quot;</span>)(sys.stdout.detach())</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;中文&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<h3 id="SSH-后-CONDA，CUDA找不到"><a href="#SSH-后-CONDA，CUDA找不到" class="headerlink" title="SSH 后 CONDA，CUDA找不到"></a>SSH 后 CONDA，CUDA找不到</h3><p>runtime版本的 pytorch镜像是不可能弄出来cuda的</p>
+<p><strong>必须</strong>要下载dev版本的pytorch镜像  才能有nvcc命令 否则只能基于pytorch调cuda</p>
+<p>而dev版本的很可能 ssh后环境就变了 因为连接shell的模式不一样 需要导一下环境变量</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">vi ~/.bashrc</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">在文件末尾添加环境变量</span></span><br><span class="line">export PATH=&quot;/opt/conda/bin:$PATH&quot;</span><br><span class="line">export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64</span><br><span class="line">export PATH=$PATH:/usr/local/cuda/bin</span><br><span class="line">export CUDA_HOME=$CUDA_HOME:/usr/local/cuda</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">wq! 保存退出</span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">更新配置文件</span></span><br><span class="line">source ~/.bashrc</span><br></pre></td></tr></table></figure>
+
+<h3 id="批量删除进程"><a href="#批量删除进程" class="headerlink" title="批量删除进程"></a>批量删除进程</h3><p><code>ps -ef | grep train.py| awk &#39;&#123;print $2&#125;&#39; | xargs kill -9</code></p>
+<h3 id="后台启动tensorboard-jupyter"><a href="#后台启动tensorboard-jupyter" class="headerlink" title="后台启动tensorboard  jupyter"></a>后台启动tensorboard  jupyter</h3><p>写到.sh文件里 直接运行.sh</p>
+<p><code>nohup tensorboard --logdir=logs --bind_all &gt; tensorboard.log 2&gt;&amp;1 &amp;</code></p>
+<p><code>nohup jupyter lab --allow-root --ip=0.0.0.0 &gt; jupyter.log 2&gt;&amp;1 &amp;</code></p>
+<h3 id="Oh-My-Zsh-安装"><a href="#Oh-My-Zsh-安装" class="headerlink" title="Oh-My-Zsh 安装"></a>Oh-My-Zsh 安装</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">apt install curl</span><br><span class="line">apt install zsh</span><br><span class="line">sh -c &quot;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&quot;</span><br><span class="line">vim ~/.zshrc</span><br><span class="line">ZSH_THEME=&quot;xiong-chiamiov&quot;</span><br></pre></td></tr></table></figure>
+
+<h3 id="常用package"><a href="#常用package" class="headerlink" title="常用package"></a>常用package</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">conda install jupyterlab</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">conda install scikitlearn</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">conda install scikit-learn-intelex</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">conda install matplotlib</span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">conda install seaborn</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Matplotlib-Linux中文编码"><a href="#Matplotlib-Linux中文编码" class="headerlink" title="Matplotlib Linux中文编码"></a>Matplotlib Linux中文编码</h3><p>导入sns包也会影响中文编码 需要再设置一下sns.set()</p>
+<p><a target="_blank" rel="noopener" href="https://www.freesion.com/article/80011281764/">https://www.freesion.com/article/80011281764/</a></p>
+<h3 id="配一次docker-用一辈子"><a href="#配一次docker-用一辈子" class="headerlink" title="配一次docker 用一辈子"></a>配一次docker 用一辈子</h3><p>在你把ssh git python sklearn zsh等软件统统配置完毕后 把容器制作成镜像 从此用一辈子</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker commit &lt;exiting-container&gt; &lt;hub-user&gt;/&lt;repo-name&gt;[:&lt;tag&gt;]</span><br></pre></td></tr></table></figure>
+
+<h3 id="从移动硬盘拷贝数据到服务器"><a href="#从移动硬盘拷贝数据到服务器" class="headerlink" title="从移动硬盘拷贝数据到服务器"></a>从移动硬盘拷贝数据到服务器</h3><ol>
+<li><p>首先以root用户登陆宿主机，或是普通用户在rooter组里，如无权限可联系管理员添加</p>
+</li>
+<li><p>连接硬盘</p>
+</li>
+<li><p>使用<code>sudo fdisk -l</code>根据存储空间判断自己的移动硬盘，确定设备名</p>
+<p> <img src="https://pic.alphalrx.cn//image-20211103182526068.png" alt="image-20211103182526068"></p>
+<p> 这里我的硬盘是<code>/dev/sdd1</code></p>
+</li>
+<li><p>在服务器某一位置新建一个文件夹用来挂载硬盘</p>
+ <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mkdir /home/hdd</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>将硬盘挂载到指定目录</p>
+ <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mount /dev/sdd1 /home/hdd</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>此时<code>/home/hdd</code>中挂载了硬盘中的数据，可通过<code>cp</code>从硬盘中拷贝数据到个人路径下。若拷贝文件过大，建议用<code>screen</code>命令在后台静默拷贝</p>
+</li>
+<li><p>拷贝结束，取消挂载硬盘，如使用了<code>screen</code>，拷贝完成先把这个screen进程关掉，再取消挂载，否则会报错<code>target is busy.</code></p>
+ <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo umount /home/hdd</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h3 id="SoftEther服务器配置"><a href="#SoftEther服务器配置" class="headerlink" title="SoftEther服务器配置"></a>SoftEther服务器配置</h3><p>sudo vpnclient start</p>
+<p>sudo vpncmd  设置本地客户端</p>
+<p>NicCreate 创建虚拟网卡</p>
+<p>设置 网卡固定IP ifconfig vpn_vpn_1008  192.168.190.33 netmask 255.255.255.0 broadcast 192.168.190.255</p>
+<p>AccountCreate 创建连接 1.2.3.4:443</p>
+<p>AccountConnect </p>
+<h3 id="SoftVPN开机重启"><a href="#SoftVPN开机重启" class="headerlink" title="SoftVPN开机重启"></a>SoftVPN开机重启</h3><p>原理：在&#x2F;etc&#x2F;init.d&#x2F;里加入脚本 开机就会嘎嘎运行</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/sh</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Start/stop the vpnclien daemon</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"></span><br><span class="line"><span class="comment">### BEGIN INIT INFO</span></span><br><span class="line"><span class="comment"># Provides:           vpnclient</span></span><br><span class="line"><span class="comment"># Required-Start:     $local_fs $syslog $time</span></span><br><span class="line"><span class="comment"># Required-Stop:      $local_fs $syslog $time</span></span><br><span class="line"><span class="comment"># Should-Start:       $network</span></span><br><span class="line"><span class="comment"># Should-Stop:        $network</span></span><br><span class="line"><span class="comment"># Default-Start:      2 3 4 5</span></span><br><span class="line"><span class="comment"># Default-Stop:</span></span><br><span class="line"><span class="comment"># Short-Description:  vpn client service</span></span><br><span class="line"><span class="comment"># Description:        Softether vpn client service.</span></span><br><span class="line"><span class="comment">### END INIT INFO</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#  vpn 安装地址</span></span><br><span class="line">EXE_DIR=/home/lipan/vpnclient/</span><br><span class="line">SER=<span class="string">&quot;<span class="variable">$EXE_DIR</span>&quot;</span>vpnclient</span><br><span class="line">CMD=<span class="string">&quot;<span class="variable">$EXE_DIR</span>&quot;</span>vpncmd</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">start</span></span>()</span><br><span class="line">&#123;</span><br><span class="line">  <span class="built_in">echo</span> start</span><br><span class="line">  <span class="variable">$SER</span> start</span><br><span class="line"><span class="comment"># 连接名称</span></span><br><span class="line">  <span class="variable">$CMD</span> localhost /client /cmd accountconnect 1008</span><br><span class="line"><span class="comment"># 网卡配置</span></span><br><span class="line">  ifconfig vpn_myvpn 192.168.190.44 netmask 255.255.255.0 broadcast 192.168.190.255</span><br><span class="line">  <span class="built_in">echo</span> end</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">stop</span></span>()</span><br><span class="line">&#123;</span><br><span class="line">  undefined</span><br><span class="line">  <span class="variable">$SER</span> stop</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">case</span> <span class="string">&quot;<span class="variable">$1</span>&quot;</span> <span class="keyword">in</span></span><br><span class="line">	start)</span><br><span class="line">		start</span><br><span class="line">		;;</span><br><span class="line">	stop)</span><br><span class="line">		stop</span><br><span class="line">		;;</span><br><span class="line"><span class="keyword">esac</span></span><br><span class="line"><span class="built_in">exit</span> 0</span><br></pre></td></tr></table></figure>
+
+
+
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/04/03/%E7%AE%97%E6%B3%95%E6%A8%A1%E7%89%88/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LP's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2022/04/03/%E7%AE%97%E6%B3%95%E6%A8%A1%E7%89%88/" itemprop="url">算法模版</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-04-03T23:42:13+08:00">
+                2022-04-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%AE%97%E6%B3%95/" itemprop="url" rel="index">
+                    <span itemprop="name">算法</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  2k 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  9 分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="约定"><a href="#约定" class="headerlink" title="约定"></a>约定</h3><p>变量命名：索引 <strong>i j k</strong>  值 <strong>val</strong>  计数<strong>cnt</strong> 路径<strong>p path</strong> 访问位<strong>vis</strong> 常数 <strong>MOD</strong> <strong>MAX</strong>  坐标 <strong>x y z</strong> 数组大小 <strong>m n</strong></p>
+<p><strong>TreeMap TreeSet</strong> 由红黑树实现有序map、set</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> MAX=<span class="number">0x3f3f3f3f</span>; <span class="comment">//　最大整数 同时还能避免两数相加溢出int表示范围</span></span><br><span class="line">    </span><br><span class="line"><span class="type">int</span> <span class="title function_">getIndex</span><span class="params">(<span class="type">int</span> x,<span class="type">int</span> y)</span>&#123;</span><br><span class="line">    <span class="keyword">return</span> x*col+y;</span><br><span class="line">    </span><br><span class="line">String.charAt(idx); <span class="comment">// String访问索引</span></span><br><span class="line"></span><br><span class="line">Collection.sort(object,compertor);</span><br><span class="line"></span><br><span class="line">Arrays.toString(arr);<span class="comment">// 输出数组用于调试 </span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 数组、列表 之间的转换</span></span><br><span class="line">Integer[] nums=lst.toArray(); <span class="comment">//List转数组</span></span><br><span class="line">List&lt;Integer&gt; list=nums.asList(); <span class="comment">//数组转List</span></span><br><span class="line"><span class="comment">// 字符串、列表 之间的转换</span></span><br><span class="line"><span class="type">char</span>[] cs=str.toCharArray();<span class="comment">//String转char数组</span></span><br><span class="line">String s=String.valueOf(cs);<span class="comment">// char数组转String</span></span><br><span class="line">    </span><br><span class="line"><span class="comment">//linkedList实现了Deque接口 因此有push() poll() peek() getFirst() getLast() addLast() addFirst() removeFirst() removeLast() removeLast() removeFirst() </span></span><br><span class="line">    </span><br><span class="line"><span class="comment">// Character 常用方法</span></span><br><span class="line">Character.isLetter();</span><br><span class="line">Character.isDigit();</span><br><span class="line">Character.isUpperCase(); Character.isLowerCase();</span><br><span class="line">Character.toUpperCase(); Character.toLowerCase();</span><br><span class="line">Character.isWhiteSpace();</span><br><span class="line"></span><br><span class="line">    </span><br><span class="line"><span class="comment">// StringBuilder 常用方法</span></span><br><span class="line">sb.insert(idx,ch)</span><br><span class="line">sb.setCharAt(idx,ch) <span class="comment">//一般使用char数组做修改 然后再由char数组转字符串</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="思想"><a href="#思想" class="headerlink" title="思想"></a>思想</h3><p>有序  有序函数 最大值最小值 就要想二分 没有有序函数构造有序函数</p>
+<p>当题目允许往任意方向移动时，考察的往往就不是 DP 了，而是图论。DP 问题是一类特殊的图论问题，DP 题虽然都属于图论范畴。但对于不是拓扑图的图论问题，我们无法使用 DP 求解。</p>
+<p>递归算法的时间复杂度 &#x3D; 递归深度 * 每次递归中的迭代次数</p>
+<p>对于字符串序列 </p>
+<ul>
+<li><p>如果是单串 一维dp 和 二维dp i j对应从i..j</p>
+</li>
+<li><p>双串 二维dp 第一个串0..i 第二个串 0…j</p>
+</li>
+</ul>
+<p>回溯算法是自顶向下 DP算法是自底向上 本质上都是搜索</p>
+<p>二叉树所有问题：1. 遍历一遍得出答案 对应回溯 2. 分解问题得出答案 对应动态规划</p>
+<p>二叉树的所有问题，就是让你在前中后序位置注入巧妙的代码逻辑，去达到自己的目的。</p>
+<p>二叉树后序 左右中  反向后续 右左中 &#x3D;&#x3D;&#x3D; 逆序先序 </p>
+<p>递归问题：</p>
+<ol>
+<li>函数是干嘛的</li>
+<li>函数变量是什么</li>
+<li>得到的结果用来干什么</li>
+</ol>
+<p><strong>写递归算法的关键是要明确函数的「定义」是什么，然后相信这个定义，不要怀疑！利用这个定义推导最终结果，绝不要跳入递归的细节</strong>。</p>
+<p>想 <strong>该做什么</strong> 和 <strong>什么时候做</strong> 前者是<strong>递归定义问题</strong>，后者是<strong>前中后序问题</strong></p>
+<p>DP问题：</p>
+<ol>
+<li>定义</li>
+<li>状态</li>
+<li>选择</li>
+</ol>
+<p>问题规模的变化的导数的积分 等于 复杂度 </p>
+<h3 id="模板"><a href="#模板" class="headerlink" title="模板"></a>模板</h3><h4 id="二分"><a href="#二分" class="headerlink" title="二分"></a>二分</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> left=<span class="number">0</span>,right=n-<span class="number">1</span>;</span><br><span class="line"><span class="keyword">while</span>(left&lt;=right)&#123;</span><br><span class="line">    <span class="type">int</span> mid=left+(right-left)/<span class="number">2</span>;</span><br><span class="line">    <span class="keyword">if</span>(nums[mid] &lt; target)</span><br><span class="line">        left=mid+<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(nums[mid] &gt; target)</span><br><span class="line">        right=mid-<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(nums[mid] == target)</span><br><span class="line"><span class="comment">//     	right=mid-1; 求左侧</span></span><br><span class="line"><span class="comment">//    	left=mid+1;  求右侧</span></span><br><span class="line">    	<span class="keyword">return</span> mid; <span class="comment">//找值</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//求左侧</span></span><br><span class="line"><span class="comment">//if(left&gt;=n || nums[left]!=target) return -1; </span></span><br><span class="line"><span class="comment">//return left;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//求右侧</span></span><br><span class="line"><span class="comment">//if(right&lt;0 || nums[right]!=target) return -1;</span></span><br><span class="line"><span class="comment">//return right;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">return</span> -<span class="number">1</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h4 id="求最大公因数"><a href="#求最大公因数" class="headerlink" title="求最大公因数"></a>求最大公因数</h4><p>gcd 欧几里得 辗转相除法</p>
+<p>原理：a 是大数 b是小数 ，大数、小数与a mod b 拥有一样的最大公因数d（证明：a&#x3D;k*c+b -&gt; c&#x3D;a&#x2F;c-b&#x2F;c -&gt; c是整数 除以d左右还是整数），而d一定小于等于a mod b</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="title function_">gcd</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b)</span>&#123;</span><br><span class="line">    <span class="keyword">return</span> b==<span class="number">0</span> ? a : gcd(b,a%b);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="快速排序"><a href="#快速排序" class="headerlink" title="快速排序"></a>快速排序</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">void</span> <span class="title function_">quickSort</span><span class="params">(<span class="type">int</span>[] nums,<span class="type">int</span> lo,<span class="type">int</span> hi)</span>&#123;</span><br><span class="line">	<span class="type">int</span> k=partition(nums,lo,hi);</span><br><span class="line">    quickSort(nums,lo,k-<span class="number">1</span>);</span><br><span class="line">    qucikSort(nums,k+<span class="number">1</span>,hi);</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">int</span> <span class="title function_">partition</span><span class="params">(<span class="type">int</span>[] nums,<span class="type">int</span> lo,<span class="type">int</span> hi)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(lo==hi) <span class="keyword">return</span> lo;</span><br><span class="line">    <span class="type">int</span> i=lo,j=hi+<span class="number">1</span>;</span><br><span class="line">    <span class="type">int</span> v=nums[lo];</span><br><span class="line">    <span class="keyword">while</span>(<span class="literal">true</span>)&#123;</span><br><span class="line">        <span class="keyword">while</span>(nums[++i]&lt;=v) <span class="keyword">if</span>(i==hi) <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">while</span>(num[--j]&gt;=v) <span class="keyword">if</span>(j==lo) <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">if</span>(i&gt;=j) <span class="keyword">break</span>;</span><br><span class="line">        swap(nums,i,j);</span><br><span class="line">    &#125;</span><br><span class="line">    swap(nums,lo,j);</span><br><span class="line">    <span class="keyword">return</span> j;</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">int</span> <span class="title function_">swap</span><span class="params">(<span class="type">int</span>[] nums,<span class="type">int</span> i,<span class="type">int</span> j)</span>&#123;</span><br><span class="line">    <span class="type">int</span> temp=nums[i];</span><br><span class="line">    nums[i]=nums[j];</span><br><span class="line">    nums[j]=temp;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="归并排序"><a href="#归并排序" class="headerlink" title="归并排序"></a>归并排序</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> n;</span><br><span class="line"><span class="type">int</span> temp=<span class="keyword">new</span> <span class="title class_">int</span>[n];</span><br><span class="line"><span class="keyword">void</span> <span class="title function_">sort</span><span class="params">(<span class="type">int</span>[] nums,<span class="type">int</span> lo,<span class="type">int</span> hi)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(lo==hi) <span class="keyword">return</span>;</span><br><span class="line">    <span class="type">int</span> mid=(lo+hi)/<span class="number">2</span>;</span><br><span class="line">    sort(nums,lo,mid);</span><br><span class="line">    sort(nums,mid+<span class="number">1</span>,hi);</span><br><span class="line">    merge(nums,lo,mid,hi);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">void</span> <span class="title function_">merge</span><span class="params">(<span class="type">int</span> nums[],<span class="type">int</span> lo, <span class="type">int</span> mid,<span class="type">int</span> hi)</span>&#123;</span><br><span class="line">    <span class="type">int</span> left=lo,right=mid+<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=lo;i&lt;=hi;i++)</span><br><span class="line">        temp[i]=nums[i];</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> k=lo;k&lt;=hi;k++)&#123;</span><br><span class="line">        <span class="keyword">if</span>(left&gt;mid) nums[k]=temp[right++];</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(right&gt;hi) nums[k]=temp[left++];</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(temp[left]&lt;=temp[right]) nums[k]=temp[left++];</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(temp[left]&gt;temp[right])  nums[k]=temp[right++];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="翻转链表"><a href="#翻转链表" class="headerlink" title="翻转链表"></a>翻转链表</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//迭代 三指针</span></span><br><span class="line">ListNode <span class="title function_">reverse</span><span class="params">(ListNode a)</span> &#123;</span><br><span class="line">    ListNode pre, cur, nxt;</span><br><span class="line">    pre = <span class="literal">null</span>; cur = a; nxt = a; </span><br><span class="line">    <span class="keyword">while</span> (cur != <span class="literal">null</span>) &#123;</span><br><span class="line">        <span class="comment">// 顺序：下一个节点--前一个节点--中间节点--下一节点 Nxt放前面 避免cur更新后为null 访问cur.next越界</span></span><br><span class="line">        nxt = cur.next;</span><br><span class="line">        cur.next = pre;</span><br><span class="line">        pre = cur;</span><br><span class="line">        cur = nxt;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> pre;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//递归 神奇之处在于</span></span><br><span class="line"><span class="comment">//翻转之后 head的前驱节点就是head.next找到</span></span><br><span class="line">ListNode <span class="title function_">reverse</span><span class="params">(ListNode head)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(head==<span class="literal">null</span> || head.next==<span class="literal">null</span> ) <span class="keyword">return</span> head;</span><br><span class="line">    ListNode last=reverse(head.next);</span><br><span class="line">    head.next.next=head;</span><br><span class="line">    head.next=<span class="literal">null</span>;</span><br><span class="line">    <span class="keyword">return</span> head;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="洗牌"><a href="#洗牌" class="headerlink" title="洗牌"></a>洗牌</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">void</span> <span class="title function_">shuffle</span><span class="params">(<span class="type">int</span>[] nums)</span> &#123;</span><br><span class="line">    <span class="type">int</span> <span class="variable">n</span> <span class="operator">=</span> nums.length;</span><br><span class="line">    <span class="type">Random</span> <span class="variable">rand</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Random</span>();</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span> ; i &lt; n; i++) &#123;</span><br><span class="line">        <span class="comment">// 从 i 到最后随机选一个元素</span></span><br><span class="line">        <span class="type">int</span> <span class="variable">r</span> <span class="operator">=</span> i + rand.nextInt(n - i);</span><br><span class="line">        swap(nums, i, r);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="矩阵快速幂"><a href="#矩阵快速幂" class="headerlink" title="矩阵快速幂"></a>矩阵快速幂</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span>[][] mul(<span class="type">int</span>[][] a,<span class="type">int</span>[][] b)&#123;</span><br><span class="line">    <span class="type">int</span> r=a.length,c=b[<span class="number">0</span>].length,z=a[<span class="number">0</span>].length;</span><br><span class="line">    <span class="type">int</span>[][] ans=<span class="keyword">new</span> <span class="title class_">int</span>[r][c];</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;r;i++)</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;c;j++)</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> k=<span class="number">0</span>;k&lt;z;k++)</span><br><span class="line">                ans[i][j]+=a[i][k]*b[k][j];</span><br><span class="line">   	<span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// (b^n) * a</span></span><br><span class="line"><span class="keyword">while</span>(n&gt;<span class="number">0</span>)&#123;</span><br><span class="line">    <span class="keyword">if</span>((n&amp;<span class="number">1</span>)==<span class="number">1</span>) a=mul(b,a);</span><br><span class="line">	b=mul(b,b);</span><br><span class="line">	n&gt;&gt;=<span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line">    </span><br></pre></td></tr></table></figure>
+
+<h4 id="存图"><a href="#存图" class="headerlink" title="存图"></a>存图</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 邻接矩阵数组：w[a][b] = c 代表从 a 到 b 有权重为 c 的边</span></span><br><span class="line"><span class="type">int</span>[][] w = <span class="keyword">new</span> <span class="title class_">int</span>[N][N];</span><br><span class="line"></span><br><span class="line"><span class="comment">// 加边操作</span></span><br><span class="line"><span class="keyword">void</span> <span class="title function_">add</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b, <span class="type">int</span> c)</span> &#123;</span><br><span class="line">    w[a][b] = c;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 稀疏图 邻接矩阵 前向星</span></span><br><span class="line"><span class="type">int</span>[] he = <span class="keyword">new</span> <span class="title class_">int</span>[N], e = <span class="keyword">new</span> <span class="title class_">int</span>[M], ne = <span class="keyword">new</span> <span class="title class_">int</span>[M], w = <span class="keyword">new</span> <span class="title class_">int</span>[M];</span><br><span class="line"><span class="type">int</span> idx;</span><br><span class="line"></span><br><span class="line"><span class="keyword">void</span> <span class="title function_">add</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b, <span class="type">int</span> c)</span> &#123;</span><br><span class="line">    e[idx] = b;</span><br><span class="line">    ne[idx] = he[a];</span><br><span class="line">    he[a] = idx;</span><br><span class="line">    w[idx] = c;</span><br><span class="line">    idx++;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 类 存所有边 </span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Edge</span> &#123;</span><br><span class="line">    <span class="comment">// 代表从 a 到 b 有一条权重为 c 的边</span></span><br><span class="line">    <span class="type">int</span> a, b, c;</span><br><span class="line">    Edge(<span class="type">int</span> _a, <span class="type">int</span> _b, <span class="type">int</span> _c) &#123;</span><br><span class="line">        a = _a; b = _b; c = _c;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="最短路问题"><a href="#最短路问题" class="headerlink" title="最短路问题"></a>最短路问题</h4><h4 id="n个顶点-m条边"><a href="#n个顶点-m条边" class="headerlink" title="n个顶点 m条边"></a>n个顶点 m条边</h4><p><strong>Floyd</strong>  「多源汇最短路问题」 三重循环 枚举顺序 中间节点-起点-终点 -松弛操作　Ｏ（n3) </p>
+<p><strong>Dijkstra</strong>  「单源汇最短路问题」 每次找到「最短距离最小」且「未被更新」的点 t 标记点t　再用点ｔ更新其他节点　复杂度 邻接矩阵 O(n2)  邻接表O(mn) 堆优化O(mlogn+n)：使用优先队列保存　《点和距离》</p>
+<p><strong>Bellman Ford</strong>  「单源点负权图求最短路」 每次过一遍所有边更新距离  O(mn)</p>
+<h4 id="并查集"><a href="#并查集" class="headerlink" title="并查集"></a>并查集</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="title function_">find</span><span class="params">(<span class="type">int</span> a)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(p[a]!=a) p[a]=find(p[a]);</span><br><span class="line">    <span class="keyword">return</span> p[a];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">union</span><span class="params">(<span class="type">int</span> a,<span class="type">int</span> b)</span>&#123;</span><br><span class="line">    p[find(a)]=p[find(b)];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">query</span><span class="params">(<span class="type">int</span> a,<span class="type">int</span> b)</span>&#123;</span><br><span class="line">    <span class="keyword">return</span> find(a)==find(b);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="最小生成树"><a href="#最小生成树" class="headerlink" title="最小生成树"></a>最小生成树</h4><p><strong>kruskal</strong> 所有边 排序 每次加最小边 并查集保证不出现回路 O(mlogm) 稀疏图</p>
+<p><strong>prim</strong> 从起点开始 每次找一个新的最近点 指导所有点找完 O(n2) 稠密图</p>
+<h4 id="字典树"><a href="#字典树" class="headerlink" title="字典树"></a>字典树</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span>[][] tr=<span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">100010</span>][<span class="number">26</span>];</span><br><span class="line"><span class="type">int</span>[] count=<span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">100010</span>];</span><br><span class="line"><span class="type">int</span> idx=<span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">void</span> <span class="title function_">insert</span><span class="params">(String s)</span>&#123;</span><br><span class="line">    <span class="type">char</span>[] cs=s.toCharArray()</span><br><span class="line">    <span class="type">int</span> i=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">char</span> c:cs)&#123;</span><br><span class="line">        <span class="keyword">if</span>(tr[i][c-<span class="string">&#x27;a&#x27;</span>]==<span class="number">0</span>)&#123;</span><br><span class="line">            tr[i][c-<span class="string">&#x27;a&#x27;</span>]=++idx;</span><br><span class="line">        &#125;</span><br><span class="line">        i=tr[i][c-<span class="string">&#x27;a&#x27;</span>];</span><br><span class="line">    &#125;</span><br><span class="line">    count[i]++;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">query</span><span class="params">(String s)</span>&#123;</span><br><span class="line">    <span class="type">char</span>[] cs=s.toCharArray()</span><br><span class="line">    <span class="type">int</span> i=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">char</span> c:cs)&#123;</span><br><span class="line">        <span class="keyword">if</span>(tr[i][c-<span class="string">&#x27;a&#x27;</span>]==<span class="number">0</span>)&#123;</span><br><span class="line">            retrun <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span>&#123;</span><br><span class="line">            i=tr[i][c-<span class="string">&#x27;a&#x27;</span>];</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> count[i];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="树状数组"><a href="#树状数组" class="headerlink" title="树状数组"></a>树状数组</h4><p>模版：单点修改 区间查询</p>
+<p>区间修改 单点查询： 用树状数组维护差分数组的前缀和</p>
+<p>区间修改 区间查询：建议用线段树</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span>[] tr;</span><br><span class="line"><span class="type">int</span> <span class="title function_">lowbit</span><span class="params">(<span class="type">int</span> x)</span>&#123;<span class="keyword">return</span> x&amp;-x;&#125;</span><br><span class="line"><span class="keyword">void</span> <span class="title function_">add</span><span class="params">(<span class="type">int</span> x,<span class="type">int</span> v)</span>&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=x;i&lt;tr.length;i+=lowbit(i)) tr[i]+=v;</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">int</span> <span class="title function_">ask</span><span class="params">(<span class="type">int</span> x)</span>&#123;</span><br><span class="line">    <span class="type">int</span> ans=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=x;i!=<span class="number">0</span>;i-=lowbit(i)) ans+=tr[i];</span><br><span class="line">    <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/03/05/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20(NJU%20JYYOS%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0)/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LP's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2022/03/05/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%20(NJU%20JYYOS%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0)/" itemprop="url">操作系统 (NJU JYYOS课程笔记)</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-03-05T11:22:11+08:00">
+                2022-03-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" itemprop="url" rel="index">
+                    <span itemprop="name">操作系统</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  1.7k 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  6 分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="操作系统概述"><a href="#操作系统概述" class="headerlink" title="操作系统概述"></a>操作系统概述</h3><p>1946 ENIAC 状态机</p>
+<p>逻辑门：真空管</p>
+<p>存储器：延迟线</p>
+<p>输入输出：打孔纸袋 指示灯</p>
+<p><img src="/JYYOS.assets/image-20220326150731995.png" alt="image-20220326150731995"></p>
+<h3 id="操作系统上的程序"><a href="#操作系统上的程序" class="headerlink" title="操作系统上的程序"></a>操作系统上的程序</h3><p>程序&#x3D;状态机</p>
+<ul>
+<li>状态&#x3D;内存M+寄存器R</li>
+</ul>
+<h3 id="操作系统状态机模型"><a href="#操作系统状态机模型" class="headerlink" title="操作系统状态机模型"></a>操作系统状态机模型</h3><p>程序由操作系统启动，操作系统也是程序，如何启动？</p>
+<p>鸡生蛋蛋生鸡</p>
+<p>解决方法：软件和硬件 进行约定</p>
+<ul>
+<li>CPU reset 将CPU进入初始状态<ul>
+<li>rip cs ds …等寄存器恢复初始状态</li>
+<li>使得PC 读到一条有效的指令</li>
+</ul>
+</li>
+<li>PC 初始&#x3D;ffff0 指向ROM中firmware的一条指令（通常是跳转指令） </li>
+<li>Firmware:   firmware 就是计算机要运行的第一个软件<ul>
+<li>BIOS Basic IO System <ul>
+<li>Legacy BIOS</li>
+<li>和操作系统握手</li>
+<li>把第一个可引导设备（磁盘 SSD 软盘（AB盘所以从C盘开始））的第一个扇区（512字节）MBR 加载到物理内存7c00位置 该程序即bootloader 开始加载操作系统</li>
+</ul>
+</li>
+<li>UEFI（Unified Extensible Firmware Interface)<ul>
+<li>Boot loader面临各种硬件：指纹锁、USB上蓝牙转接器连接的蓝牙键盘、不知名厂商生产网卡上的网络驱动</li>
+</ul>
+</li>
+<li>区别<ul>
+<li>BIOS把MBR读出来交给CPU执行，做MBR做想做的事。</li>
+<li>UEFI是查找磁盘里的\efi\boot\bootx64.efi文件，启动这个可执行程序，让这程序做想做的事。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="操作系统程序"><a href="#操作系统程序" class="headerlink" title="操作系统程序"></a>操作系统程序</h3><ul>
+<li><p>操作系统</p>
+<ul>
+<li>应用视角：一组对象（进程、文件、设备）+API</li>
+<li>硬件视角：一个C程序</li>
+</ul>
+</li>
+<li><p>程序</p>
+<p>  程序&#x3D;状态机&#x3D;计算→syscall→计算</p>
+<ul>
+<li>被操作系统加载<ul>
+<li>通过另一个进程执行execve设置初始状态</li>
+</ul>
+</li>
+<li>状态机执行<ul>
+<li>进程管理 fork execve exit</li>
+<li>文件设备管理 open close read write</li>
+<li>存储管理 mmap brk</li>
+</ul>
+</li>
+<li>直到_exit（exit_group)退出</li>
+<li>源代码S和汇编代码C<ul>
+<li>C&#x3D;compile(S)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="什么是正确的编译"><a href="#什么是正确的编译" class="headerlink" title="什么是正确的编译"></a>什么是正确的编译</h3><p>C语言层面状态机上  所有不可优化的部分 都被正确地翻译到汇编（状态机）上 除此之外所有的编译器优化都可以做</p>
+<blockquote>
+<p>保证观测一致性（sound） 前提下改写代码（rewriting)</p>
+</blockquote>
+<h3 id="线程同步"><a href="#线程同步" class="headerlink" title="线程同步"></a>线程同步</h3><p>在某个时间点共同达到互相已知的状态</p>
+<p>两个人约定好，先结束的要等，等另一方完成他的事情</p>
+<p>等我洗个头&#x2F;打完这句游戏就出门</p>
+<h3 id="实现同步的方法"><a href="#实现同步的方法" class="headerlink" title="实现同步的方法"></a>实现同步的方法</h3><p>任何一个需要同步的大任务都可以分解成多个小任务构成的计算图，就可以用生产者-消费者模型来解决，生产者消费者模型可以通过条件变量和互斥锁来解决。</p>
+<h3 id="并发编程的真实应用场景"><a href="#并发编程的真实应用场景" class="headerlink" title="并发编程的真实应用场景"></a>并发编程的真实应用场景</h3><ul>
+<li>高性能计算 (注重任务分解): 生产者-消费者 (MPI&#x2F;OpenMP)</li>
+<li>数据中心 (注重系统调用): 线程-协程 (Goroutine)</li>
+<li>人机交互 (注重易用性): 事件-流图 (Promise)</li>
+</ul>
+<h3 id="线程、协程"><a href="#线程、协程" class="headerlink" title="线程、协程"></a>线程、协程</h3><p>线程切换 需要内核态-用户态切换，由操作系统调度 且每个线程都有对应的内核栈（因为不同的线程可能同时进入系统调用，避免互相影响，每个线程的内核空间是共享的，共享的内核空间为每个线程开辟单独的内核线程栈）</p>
+<p>协程切换 类似于函数调用 在用户态完成，由用户程序自己调度  不需要保存寄存器状态 </p>
+<p>一个线程多个协程无法利用多处理器</p>
+<p>Goroutine通过非阻塞系统调用实现了 多处理器并行+轻量级并发</p>
+<h3 id="操作系统的完整理解"><a href="#操作系统的完整理解" class="headerlink" title="操作系统的完整理解"></a>操作系统的完整理解</h3><ul>
+<li>CPU Reset → Firmware → Loader → Kernel <code>_start()</code> → 执行第一个程序 <code>/bin/init</code> （init 可以执行各种系统调用 fork execve exit创建整个世界）→  中断&#x2F;异常处理程序</li>
+<li>操作系统：加载第一个 <code>init</code> 程序，随后变为 “异常处理程序”</li>
+<li><code>init</code>: fork, execve, exit 和其他系统调用创造整个操作系统世界</li>
+<li>一个最小的Linux例子</li>
+</ul>
+<h3 id="系统调用"><a href="#系统调用" class="headerlink" title="系统调用"></a>系统调用</h3><ul>
+<li>fork 保存状态机的所有状态，复制一份，当前进程返回pid，新创建的进程返回0</li>
+<li>execve  重置状态机所有状态，参数包含 执行文件、参数、环境变量（这时候传递的是环境变量） Linux所有的程序执行都是fork+execve 任何程序的第一个系统调用一定是execve</li>
+<li>exit <ul>
+<li>exit(0) stdlib.h中声明的libc函数  </li>
+<li>_exit(0) glibc的 Syscall wrapper   退出整个进程 实际上使用exit_group() 系统调用</li>
+<li>syscall(SYS_exit,0) 仅退出一个线程</li>
+</ul>
+</li>
+</ul>
+<h3 id="中断类型"><a href="#中断类型" class="headerlink" title="中断类型"></a>中断类型</h3><ul>
+<li>interrupt  ： （硬中断） asynchronous </li>
+<li>exception ：（软中断）除0 非法地址 不可屏蔽</li>
+<li>trap :（软中断）synchronous   系统调用 int 80 </li>
+<li>由操作系统装载中断处理程序（中断向量表）</li>
+</ul>
+<h3 id="terminal-vs-shell"><a href="#terminal-vs-shell" class="headerlink" title="terminal   vs. shell"></a>terminal   vs. shell</h3><p>A terminal is a text input and output environment.</p>
+<p>Shell stands for the command-line interpreter. </p>
+<p>A terminal is a program that allows you to run a shell.</p>
+<h3 id="session-process-group"><a href="#session-process-group" class="headerlink" title="session process group"></a>session process group</h3><p>![image-20220517164708873](JYY OS.assets&#x2F;image-20220517164708873.png)</p>
+<h3 id="Shell"><a href="#Shell" class="headerlink" title="Shell"></a>Shell</h3><p>shell &#x3D; fork + execve + pipe</p>
+<p>解析命令树 fork一份 execve执行 </p>
+<p>遇到pipe 调整fork出的两份进程的描述符</p>
+<h3 id="Copy-On-Write"><a href="#Copy-On-Write" class="headerlink" title="Copy On Write"></a>Copy On Write</h3><p>fork后并不复制所有内存，而是把虚拟地址空间复制，虚拟地址指向的页面成为共享页面，OS持有引用计数，对共享页面写时触发COW，复制一份新的页面</p>
+<h3 id="ELF可执行文件"><a href="#ELF可执行文件" class="headerlink" title="ELF可执行文件"></a>ELF可执行文件</h3><p>可执行文件&#x3D;状态机初始状态的描述+迁移的数据结构</p>
+<h3 id="源代码-—-可执行文件"><a href="#源代码-—-可执行文件" class="headerlink" title="源代码 — 可执行文件"></a>源代码 — 可执行文件</h3><ul>
+<li><p>GCC  High-level semantics (C 状态机) → low-level semantics (汇编）</p>
+<ul>
+<li>把 C代码状态机 翻译 成内存+指令状态机+返回映射（调试）</li>
+</ul>
+</li>
+<li><p>AS: Low-level semantics → Binary semantics (状态机容器)</p>
+<ul>
+<li>as 翻译成 二进制数据结构+约束条件 描述了上述所有</li>
+<li>“一一对应” 地翻译成二进制代码 section symbols debug info</li>
+<li>不能决定的要留下 “之后怎么办” 的信息  relocations</li>
+</ul>
+</li>
+<li><p>ld: 合并所有容器，得到 “一个完整的状态机”</p>
+<ul>
+<li>ld 把.o文件中所有的约束条件都满足</li>
+<li>ldscript (<code>-Wl,--verbose</code>); 和 C Runtime Objects (CRT) 链接</li>
+<li>missing&#x2F;duplicate symbol 会出错</li>
+</ul>
+</li>
+</ul>
+<h3 id="处理器调度"><a href="#处理器调度" class="headerlink" title="处理器调度"></a>处理器调度</h3><ul>
+<li>Round-Robin</li>
+<li>MLFQ<ul>
+<li>让出时间片就提高你的优先级</li>
+<li>用完时间片就降低你的优先级</li>
+<li>交互式程序能够获得更高的优先级</li>
+<li>定期把所有人优先级拉平 避免While（1）饥饿</li>
+</ul>
+</li>
+<li>CFS</li>
+</ul>
+<h3 id="CFS完全公平调度"><a href="#CFS完全公平调度" class="headerlink" title="CFS完全公平调度"></a>CFS完全公平调度</h3><p>vruntime 实现 nice调整虚拟调度时间</p>
+<ol>
+<li>fork()出来的子进程<ul>
+<li>子进程先执行 会有切换开销</li>
+<li>父进程先执行 会有copy on write的问题 因为子进程可能直接execve</li>
+</ul>
+</li>
+<li>唤醒的进程是否要补齐vruntime</li>
+<li>vruntime无限增长</li>
+</ol>
+<h3 id="实时OS-优先级翻转"><a href="#实时OS-优先级翻转" class="headerlink" title="实时OS 优先级翻转"></a>实时OS 优先级翻转</h3>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/09/23/JAVA-%E5%A4%9A%E7%BA%BF%E7%A8%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LP's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2021/09/23/JAVA-%E5%A4%9A%E7%BA%BF%E7%A8%8B/" itemprop="url">JAVA 多线程</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-09-23T23:51:44+08:00">
+                2021-09-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%BC%80%E5%8F%91/" itemprop="url" rel="index">
+                    <span itemprop="name">开发</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  10.7k 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  39 分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="多线程"><a href="#多线程" class="headerlink" title="多线程"></a>多线程</h1><h1 id="基础语法"><a href="#基础语法" class="headerlink" title="基础语法"></a>基础语法</h1><h3 id="进程和线程"><a href="#进程和线程" class="headerlink" title="进程和线程"></a>进程和线程</h3><ul>
+<li>进程是一个程序的实例，当程序从磁盘被加载到内存中，就开启了一个进程</li>
+<li>一个进程可以拥有多个线程，线程之间共享资源，进程是线程的容器</li>
+<li>线程是调度的基本单位，进程是资源分配的基本单位</li>
+<li>进程之间通信较为复杂，线程通信相对简单，因为共享内存</li>
+<li>线程更轻量，其上下文切换成本更低</li>
+</ul>
+<h3 id="并发和并行"><a href="#并发和并行" class="headerlink" title="并发和并行"></a>并发和并行</h3><p>GO语言之父Rob Pike　</p>
+<ul>
+<li>并发是同一时间应对（deal with）多件事情的能力。</li>
+<li>并行是统一时间动手做（doing）多件事情的能力。</li>
+</ul>
+<h3 id="同步和异步"><a href="#同步和异步" class="headerlink" title="同步和异步"></a>同步和异步</h3><p>需要等待结果返回才能继续运行，就是同步</p>
+<p>不需要等待结果返回，就能继续运行，就是异步</p>
+<h3 id="线程"><a href="#线程" class="headerlink" title="线程"></a>线程</h3><p>java线程调用start之后，究竟是否start后被不被执行，取决于操作系统调度</p>
+<p>调用 Thread.sleep 会让当前线程从 Running 进入 Timed Waiting 状态（阻塞）</p>
+<p>调用 Thread.yield 会让当前线程从 Running 进入 Runnable 就绪状态，然后调度执行其它线程,当然哪个具体哪个线程执行取决于操作系统调度器</p>
+<p>调用 t.join 等待线程结束</p>
+<h4 id="Interrupt"><a href="#Interrupt" class="headerlink" title="Interrupt"></a>Interrupt</h4><p>打断阻塞线程 会重置打断标记IsInterrupted 即&#x3D;false     ,打断正在运行线程则会设置&#x3D;true</p>
+<h4 id="守护线程"><a href="#守护线程" class="headerlink" title="守护线程"></a>守护线程</h4><p>默认情况下，Java 进程需要等待所有线程都运行结束，才会结束。有一种特殊的线程叫做守护线程，只要其它非守护线程运行结束了，即使守护线程的代码没有执行完，也会强制结束。</p>
+<ul>
+<li>垃圾回收器就是守护线程</li>
+</ul>
+<h3 id="线程状态"><a href="#线程状态" class="headerlink" title="线程状态"></a>线程状态</h3><p>操作系统线程状态：初始，运行，阻塞，就绪，终止</p>
+<p>JAVA中操作系统状态 ：</p>
+<ul>
+<li>NEW 线程刚被创建，但是还没有调用 start() 方法</li>
+<li>RUNNABLE 当调用了 start() 方法之后，注意，Java API 层面的 RUNNABLE 状态涵盖了 操作系统 层面的<br>  【就绪状态】、【运行状态】和【阻塞状态】（由于 BIO 导致的线程阻塞，在 Java 里无法区分，仍然认为<br>  是可运行）</li>
+<li>BLOCKED ， WAITING ， TIMED_WAITING 都是 Java API 层面对【阻塞状态】的细分，后面会在状态转换一节<br>  详述</li>
+<li>TERMINATED 当线程代码运行结束</li>
+</ul>
+<p>本章的重点在于掌握</p>
+<ul>
+<li>线程重要 api，如 start，run，sleep，join，interrupt 等</li>
+<li>异步调用：主线程执行期间，其它线程异步执行耗时操作</li>
+<li>提高效率：并行计算，缩短运算时间</li>
+<li>同步等待：join</li>
+<li>线程运行流程：栈、栈帧、上下文切换、程序计数器</li>
+<li>Thread 两种创建方式 的源码</li>
+</ul>
+<h3 id="临界区"><a href="#临界区" class="headerlink" title="临界区"></a>临界区</h3><ul>
+<li>一个程序运行多个线程本身是没有问题的 问题出在多个线程访问共享资源</li>
+<li>多个线程读共享资源其实也没有问题</li>
+<li>在多个线程对共享资源读写操作时发生指令交错，就会出现问题</li>
+<li>一段代码块内如果存在对共享资源的多线程读写操作，称这段代码块为临界区</li>
+<li>多个线程在临界区内执行，由于代码的执行序列不同而导致结果无法预测，称之为发生了<strong>竞态条件</strong></li>
+</ul>
+<h3 id="设计原则"><a href="#设计原则" class="headerlink" title="设计原则"></a>设计原则</h3><p><strong>开闭原则中的闭合原则，不想往外暴露的，就设置成final，增加类的	性</strong></p>
+<blockquote>
+<p>String 如果不设计成Final ，那么其子类可能覆盖掉String类中的一些行为，导致线程不安全的发生</p>
+</blockquote>
+<h1 id="synchronized"><a href="#synchronized" class="headerlink" title="synchronized"></a>synchronized</h1><ul>
+<li>锁在方法上 等于锁this对象，锁在静态方法上，等于锁class对象</li>
+</ul>
+<h3 id="线程安全类"><a href="#线程安全类" class="headerlink" title="线程安全类"></a>线程安全类</h3><ul>
+<li><p>String</p>
+</li>
+<li><p>Integer</p>
+</li>
+<li><p>StringBuffer</p>
+</li>
+<li><p>Random</p>
+</li>
+<li><p>java.util.concurrent 包下的类</p>
+<p>  这里说它们是线程安全的是指，多个线程调用它们同一个实例的某个方法时，是线程安全的。</p>
+</li>
+</ul>
+<h3 id="怎么样会引发线程不安全？"><a href="#怎么样会引发线程不安全？" class="headerlink" title="怎么样会引发线程不安全？"></a>怎么样会引发线程不安全？</h3><p>对共享变量有读写操作</p>
+<h3 id="对象头-，锁到底在哪里？"><a href="#对象头-，锁到底在哪里？" class="headerlink" title="对象头 ，锁到底在哪里？"></a>对象头 ，锁到底在哪里？</h3><p>对象&#x3D;对象头+实例对象+填充</p>
+<p>对象头&#x3D;Mark word + Class word（类对象）</p>
+<p>Mark word 里包含 hashcode、age、各种锁和加锁状态</p>
+<h3 id="Monitor（监视器-x2F-管程）"><a href="#Monitor（监视器-x2F-管程）" class="headerlink" title="Monitor（监视器&#x2F;管程）"></a>Monitor（监视器&#x2F;管程）</h3><p>对象&#x3D;Mark Word+ class word(指向方法区的指针）+object body</p>
+<p>普通对象</p>
+<p><img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220309212052270.png" alt="image-20220309212052270"></p>
+<p>数组对象</p>
+<p><img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220309212103473.png" alt="image-20220309212103473"></p>
+<p>Mark Word结构</p>
+<p><img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220309212122933.png" alt="image-20220309212122933"></p>
+<p><img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220309212222587.png" alt="image-20220309212222587"></p>
+<h3 id="轻量级锁"><a href="#轻量级锁" class="headerlink" title="轻量级锁"></a>轻量级锁</h3><p>一个对象的多线程访问时间是错开的，那么可以使用轻量级锁来优化</p>
+<blockquote>
+<p>栈帧里维护一个lock record（锁记录&#x3D;锁记录地址+00  和 对象地址）,使用CAS机制将锁记录地址与对象头互换  </p>
+<p>CAS失败：</p>
+<p>如果发现lock record是当前线程 执行锁重入</p>
+<p>否则【锁膨胀】 升级重量级锁  对象头变为Monitor指针 owner指向被占用的线程 当前线程进入entryList</p>
+</blockquote>
+<h3 id="重量级锁竞争：锁自旋"><a href="#重量级锁竞争：锁自旋" class="headerlink" title="重量级锁竞争：锁自旋"></a>重量级锁竞争：锁自旋</h3><p>当对象头Markword是重量级锁指针时，进行几轮空转</p>
+<h3 id="偏向锁"><a href="#偏向锁" class="headerlink" title="偏向锁"></a>偏向锁</h3><p>【偏向锁】使用偏向锁在同一线程访问时就不必再进行CAS</p>
+<p>【撤销】:</p>
+<ol>
+<li><p>对象调用了hashcode</p>
+</li>
+<li><p>当有其他线程使用偏向锁的时候，会将偏向锁升级为轻量锁，并且释放后锁状态改为不可偏向锁。</p>
+</li>
+<li><p>调用wait notify ，因为只有重量级锁才能实现</p>
+</li>
+</ol>
+<p>【批量重偏向】：</p>
+<p>当撤销偏向锁过多超过20次，JVM就不信任原来的线程，因此整个类的所有对象就可以进行重偏向，可以对锁进行重偏向</p>
+<p>【批量撤销】</p>
+<p>如果撤销超过40次，jvm会觉得就TM不该偏向，于是整个类的所有对象都会变为不可偏向，新建的对象也是不可偏向</p>
+<p>【锁消除】</p>
+<p>JIT即使编译器，对JAVA字节码进行进一步优化，发现局部变量不会逃离方法的作用范围，即局部变量不可能被共享，将会优化对局部变量的加锁代码。</p>
+<h3 id="wait-和-notify"><a href="#wait-和-notify" class="headerlink" title="wait() 和 notify()"></a>wait() 和 notify()</h3><p><img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220310093448604.png" alt="image-20220310093448604"></p>
+<ul>
+<li>owner发现条件不满足，调用wait，进入WaitSet，变为WAITING状态</li>
+<li>BLOCKED 的线程 是获得不了锁 在等待锁，WAITING线程是 获得了锁，又主动释放掉了，进入等待，他们都不会占用CPU时间</li>
+<li>notify唤醒waiting线程后会重新进入entryList竞争</li>
+</ul>
+<h3 id="sleep-和-wait-的区别"><a href="#sleep-和-wait-的区别" class="headerlink" title="sleep 和 wait 的区别"></a>sleep 和 wait 的区别</h3><ul>
+<li>sleep是Thread类的方法，wait是Object的方法</li>
+<li>sleep不需要获得对象锁，wait需要获得对象锁</li>
+<li>sleep不会释放锁，wait会释放锁</li>
+<li>sleep(long) wait(long)后线程状态都是TIMED_WAITING  wait()后线程状态是WAITING</li>
+<li>wait() 与join()的区别: join是一个线程等待另一个线程的结束 但join的实现其实用的也是wait</li>
+</ul>
+<h3 id="同步模式：-保护性暂停模式"><a href="#同步模式：-保护性暂停模式" class="headerlink" title="同步模式： 保护性暂停模式"></a>同步模式： 保护性暂停模式</h3><p>一个JAVA线程需要等待另一个JAVA线程的运行结果，即Guarded Suspension</p>
+<p>异步模式: 生产者消费者模式</p>
+<h3 id="park和Notify的区别"><a href="#park和Notify的区别" class="headerlink" title="park和Notify的区别"></a>park和Notify的区别</h3><ul>
+<li><p>wait notify  必须配合Monitor使用，而park Unpark不必</p>
+</li>
+<li><p>park和unpark以线程为单位唤醒，notify随机</p>
+<p>  park原理，每个线程都有一个 Parker对象，由三部分组成_mutex, _cond , _counter(备用干粮)</p>
+</li>
+</ul>
+<p><img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220310185714858.png" alt="image-20220310185714858"></p>
+<h3 id="线程之间的状态转换"><a href="#线程之间的状态转换" class="headerlink" title="线程之间的状态转换"></a>线程之间的状态转换</h3><p><img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220310190325275.png" alt="image-20220310190325275"></p>
+<ol>
+<li>调用start()</li>
+<li>t线程用synchronized(obj) 获取对象锁后<ul>
+<li>调用obj.wait()方法 ：runnable-&gt;waitting</li>
+<li>其他线程调用obj.notify() obj.notify() t.interrupt()后 waiting-&gt;blocked 从 waitSet 进入 EntryList</li>
+</ul>
+</li>
+<li>当前线程调用t.join()方法 当前线程从runnable 到waiting</li>
+<li>LockSupport.park() LockSupport.unpark(t)</li>
+</ol>
+<h3 id="活锁"><a href="#活锁" class="headerlink" title="活锁"></a>活锁</h3><p>一个进程想加到100 一个进程减道0  俩特么怼到天亮永远也停不了</p>
+<h3 id="饥饿"><a href="#饥饿" class="headerlink" title="饥饿"></a>饥饿</h3><p>一个线程由于优先级太低，永远得不到CPU调度执行</p>
+<h3 id="死锁的四个必要条件"><a href="#死锁的四个必要条件" class="headerlink" title="死锁的四个必要条件"></a>死锁的四个必要条件</h3><ul>
+<li>互斥条件：一个资源只能被一个进程占用</li>
+<li>请求和保持条件：一个资源请求资源而阻塞时， 对已经获得的资源不释放</li>
+<li>不可剥夺条件：进程已经获得的资源不会被其他进程剥夺</li>
+<li>循环等待条件：若干进程形成了一种首尾相接的资源等待关系</li>
+</ul>
+<h3 id="ReentrantLock"><a href="#ReentrantLock" class="headerlink" title="ReentrantLock"></a>ReentrantLock</h3><ul>
+<li>可打断：等待锁.lockInterruptibly()时可以被Interrupted 属于被动解决死锁</li>
+<li>可以设置超时时间：主动解决死锁 </li>
+<li>可以设置公平锁：先进先出，防止饥饿，实际没有必要，trylock() 就好，公平锁会降低并发度</li>
+<li>支持多个条件变量 condition.await() condition.singal() 而synchronized锁的对象只能调一个wait()</li>
+</ul>
+<h3 id="知识回顾"><a href="#知识回顾" class="headerlink" title="知识回顾"></a>知识回顾</h3><ul>
+<li><p>互斥 使用Synchronized  或 Lock 达到共享资源互斥效果</p>
+</li>
+<li><p>同步 使用wait&#x2F;notify 或 condition. await&#x2F;signal 或 LockSupport.park unpark达到 线程间通信的效果</p>
+</li>
+<li><p>wait notify 对标的是锁对象</p>
+</li>
+<li><p>await signal 对标的是ReentrantLock的条件变量Condition</p>
+</li>
+<li><p>park unpark 对标的是线程</p>
+</li>
+<li><p>monitor原理(waitSet EntryList Owner) 又JVM里的C++源码实现 ReentrantLock在JAVA级别实现了Monitor</p>
+</li>
+<li><p>synchrnized原理（对象头、CAS、偏向锁、轻量级锁、重量级锁、锁膨胀、锁撤销、锁自旋、锁消除）</p>
+</li>
+<li><p>wait&#x2F;notify 原理 （waitSet等待)</p>
+</li>
+<li><p>park unpark原理（_cond _mutx _counter)</p>
+</li>
+<li><p>同步模式 保护性暂停模式（线程1想获得线程2执行后的结果）</p>
+</li>
+<li><p>异步模式 生产者消费者</p>
+</li>
+<li><p>同步模式 顺序控制 三个线程输出abcabcabc</p>
+</li>
+</ul>
+<h1 id="volatile"><a href="#volatile" class="headerlink" title="volatile"></a>volatile</h1><p>java内存模型JMM，从JAVA层面定义了<strong>主存（共享数据）、工作内存（线程私有数据）</strong>的概念，看似就两个东西，但是底层对应着CPU寄存器、缓存、硬件内存、CPU指令优化等一大堆无法兼顾的问题，主要让JAVA程序员不用考虑复杂的内存管理</p>
+<p>JMM体现在以下几个方面：</p>
+<ul>
+<li>原子性-保证指令不会受到线程上下文切换的影响 synchronized  </li>
+<li>可见性-保证指令不会受到CPU缓存的影响 <ul>
+<li>推荐：volatile 避免线程从工作缓存中查找变量的值，必须到主存中去操作，通常用在多个线程读，一个线程写的情况中</li>
+<li>synchronized 也能实现，JMM规定，线程在加锁时， 先清空工作内存→在主内存中拷贝最新变量的副本到工作内存 →执行完代码→将更改后的共享变量的值刷新到主内存中→释放互斥锁。</li>
+</ul>
+</li>
+<li>有序性-保证指令不会受到CPU指令并行优化的影响 加volatile 禁止之前代码重排序</li>
+</ul>
+<h3 id="指令重排序"><a href="#指令重排序" class="headerlink" title="指令重排序"></a>指令重排序</h3><p><img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220311165044043.png" alt="image-20220311165044043"></p>
+<p>每条指令执行过程分为：</p>
+<ul>
+<li>取指令   instruction fetch IF</li>
+<li>指令译码 instruction decode ID</li>
+<li>执行指令 execute EX</li>
+<li>内存访问 memory access MEM</li>
+<li>数据写回 register write back WB</li>
+</ul>
+<p>现代CPU支持多指令级流水线，能够并行执行指令五个过程的称为五级指令流水线<img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220311165313004.png" alt="image-20220311165313004"></p>
+<p> 为了减少指令并行化导致的阻塞，JIT（Just-In-Time） J即时编译器会进行指令重排序提高吞吐量</p>
+<h3 id="volatile原理"><a href="#volatile原理" class="headerlink" title="volatile原理"></a>volatile原理</h3><p>底层实现原理是内存屏障 Memory Barrier (Memory Fence)</p>
+<ul>
+<li>对volatile的写指令会加入写屏障</li>
+<li>对volatile的<strong>读指令前</strong>会加入读屏障</li>
+</ul>
+<p>写屏障（sfence）：</p>
+<ul>
+<li>该屏障之前，所有对共享变量的改动，都同步到主存当中。 </li>
+<li>不会对写屏障之前的代码进行指令重排</li>
+</ul>
+<p>读屏障（lfence) : 保证该屏障之后，对共享变量的读取，加载的是主存中的最新数据</p>
+<p>读写屏障不能保证原子性，只能保证有序性（禁止重排）和可见性（读主存）</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">actor2</span><span class="params">(I_Result r)</span>&#123;</span><br><span class="line">    num=<span class="number">2</span>;</span><br><span class="line">    ready=<span class="literal">true</span>;</span><br><span class="line">    <span class="comment">//写屏障   之前数据全部写入主存  之前的代码不允许指令重排</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">actor2</span><span class="params">(I_Result r)</span>&#123;</span><br><span class="line">    <span class="comment">//读屏障 之后的数据全部从主存中读 之后的代码不允许指令重拍</span></span><br><span class="line">    <span class="keyword">if</span>(ready)&#123;</span><br><span class="line">        r.r1=num+num;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span>&#123;</span><br><span class="line">        r.r1=<span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="dcl-double-check-lock问题"><a href="#dcl-double-check-lock问题" class="headerlink" title="dcl double check lock问题"></a>dcl double check lock问题</h3><p>new Singleton();过程分为四步</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">17: new #3 // 堆上创建对象 引用入栈</span><br><span class="line">20: dup // 获得引用</span><br><span class="line">21: invokespecial #4 // 调用构造方法</span><br><span class="line">24: putstatic #2 // 引用复制给静态变量</span><br></pre></td></tr></table></figure>
+
+<p>synchronized 里面的代码会发生指令重排序 可能会先执行24 再执行21，当24和21期间其他线程有可能会访问，即会反回一个未调用构造方法的静态变量	</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">class</span> <span class="title class_">Singleton</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="title function_">Singleton</span><span class="params">()</span> &#123; &#125;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">volatile</span> <span class="type">Singleton</span> <span class="variable">INSTANCE</span> <span class="operator">=</span> <span class="literal">null</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> Singleton <span class="title function_">getInstance</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="comment">// 实例没创建，才会进入内部的 synchronized代码块</span></span><br><span class="line">        <span class="keyword">if</span> (INSTANCE == <span class="literal">null</span>) &#123;</span><br><span class="line">            <span class="keyword">synchronized</span> (Singleton.class) &#123; <span class="comment">// t2</span></span><br><span class="line">        <span class="comment">// 也许有其它线程已经创建实例，所以再判断一次</span></span><br><span class="line">                <span class="keyword">if</span> (INSTANCE == <span class="literal">null</span>) &#123; <span class="comment">// t1</span></span><br><span class="line">                    INSTANCE = <span class="keyword">new</span> <span class="title class_">Singleton</span>();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> INSTANCE;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="单例模式问题"><a href="#单例模式问题" class="headerlink" title="单例模式问题"></a>单例模式问题</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 问题1：为什么加 final : 防止子类覆盖方法破坏单例</span></span><br><span class="line"><span class="comment">// 问题2：如果实现了序列化接口, 还要做什么来防止反序列化破坏单例： 增加readResolve()方法 反序列化过程中一旦发现readResolve会将该方法返回的对象作为返回对象 而不是把反序列化字节码生成的对象当成反序列化结果</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">class</span> <span class="title class_">Singleton</span> <span class="keyword">implements</span> <span class="title class_">Serializable</span> &#123;</span><br><span class="line"><span class="comment">// 问题3：为什么设置为私有? 是否能防止反射创建新的实例? ：别的类就能无限创建对象了，不能防止</span></span><br><span class="line">    <span class="keyword">private</span> <span class="title function_">Singleton</span><span class="params">()</span> &#123;&#125;</span><br><span class="line">    <span class="comment">// 问题4：这样初始化是否能保证单例对象创建时的线程安全? : 静态成员变量的初始化操作在类加载阶段完成，JVM保证线程安全性</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">Singleton</span> <span class="variable">INSTANCE</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Singleton</span>();</span><br><span class="line">    <span class="comment">// 问题5：为什么提供静态方法而不是直接将 INSTANCE 设置为 public, 说出你知道的理由：</span></span><br><span class="line">    <span class="comment">//  可以实现懒汉式，当前是饿汉式</span></span><br><span class="line">    <span class="comment">//  对创建的单例对象有更多的控制</span></span><br><span class="line">    <span class="comment">//  提供泛型支持</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> Singleton <span class="title function_">getInstance</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> INSTANCE;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> Object <span class="title function_">readResolve</span><span class="params">()</span> &#123;</span><br><span class="line">    	<span class="keyword">return</span> INSTANCE;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 问题1：枚举单例是如何限制实例个数的  ：枚举类的实例实际上就是这个类的静态成员变量</span></span><br><span class="line"><span class="comment">// 问题2：枚举单例在创建时是否有并发问题 ： 没有 静态成员变量</span></span><br><span class="line"><span class="comment">// 问题3：枚举单例能否被反射破坏单例： 不能，枚举类型不能通过new Instance创建</span></span><br><span class="line"><span class="comment">// 问题4：枚举单例能否被反序列化破坏单例：  不会被破坏</span></span><br><span class="line"><span class="comment">// 问题5：枚举单例属于懒汉式还是饿汉式： 饿汉</span></span><br><span class="line"><span class="comment">// 问题6：枚举单例如果希望加入一些单例创建时的初始化逻辑该如何做 ： 写构造方法</span></span><br><span class="line"><span class="keyword">enum</span> <span class="title class_">Singleton</span> &#123;</span><br><span class="line">	INSTANCE;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">class</span> <span class="title class_">Singleton</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="title function_">Singleton</span><span class="params">()</span> &#123; &#125;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="type">Singleton</span> <span class="variable">INSTANCE</span> <span class="operator">=</span> <span class="literal">null</span>;</span><br><span class="line">    <span class="comment">// 分析这里的线程安全, 并说明有什么缺点: 性能比较差 每次都得枷锁</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">synchronized</span> Singleton <span class="title function_">getInstance</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">if</span>( INSTANCE != <span class="literal">null</span> )&#123;</span><br><span class="line">            <span class="keyword">return</span> INSTANCE;</span><br><span class="line">        &#125;</span><br><span class="line">        INSTANCE = <span class="keyword">new</span> <span class="title class_">Singleton</span>();</span><br><span class="line">        <span class="keyword">return</span> INSTANCE;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//DCL实现</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">class</span> <span class="title class_">Singleton</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="title function_">Singleton</span><span class="params">()</span> &#123; &#125;</span><br><span class="line">    <span class="comment">// 问题1：解释为什么要加 volatile ? ：指令重排序</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">volatile</span> <span class="type">Singleton</span> <span class="variable">INSTANCE</span> <span class="operator">=</span> <span class="literal">null</span>;</span><br><span class="line">    <span class="comment">// 问题2：对比实现3, 说出这样做的意义 ： 提高效率减少加锁次数</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> Singleton <span class="title function_">getInstance</span><span class="params">()</span> &#123;</span><br><span class="line">    	<span class="keyword">if</span> (INSTANCE != <span class="literal">null</span>) &#123;</span><br><span class="line">    		<span class="keyword">return</span> INSTANCE;</span><br><span class="line">    	&#125;</span><br><span class="line">        <span class="keyword">synchronized</span> (Singleton.class) &#123;</span><br><span class="line">        <span class="comment">// 问题3：为什么还要在这里加为空判断, 之前不是判断过了吗 ：线程原子性</span></span><br><span class="line">            <span class="keyword">if</span> (INSTANCE != <span class="literal">null</span>) &#123; <span class="comment">// t2</span></span><br><span class="line">                <span class="keyword">return</span> INSTANCE;</span><br><span class="line">            &#125;</span><br><span class="line">            INSTANCE = <span class="keyword">new</span> <span class="title class_">Singleton</span>();</span><br><span class="line">            <span class="keyword">return</span> INSTANCE;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">class</span> <span class="title class_">Singleton</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="title function_">Singleton</span><span class="params">()</span> &#123; &#125;</span><br><span class="line">    <span class="comment">// 问题1：属于懒汉式还是饿汉式:懒汉 类加载本身是懒惰 类只有第一次被用到时才会出发类加载操作 真的懒 机器懒 人也懒</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="title class_">LazyHolder</span> &#123;</span><br><span class="line">    	<span class="keyword">static</span> <span class="keyword">final</span> <span class="type">Singleton</span> <span class="variable">INSTANCE</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Singleton</span>();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// 问题2：在创建时是否有并发问题 JVM保证</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> Singleton <span class="title function_">getInstance</span><span class="params">()</span> &#123;</span><br><span class="line">    	<span class="keyword">return</span> LazyHolder.INSTANCE;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><ul>
+<li>可见性-由JVM缓存引起</li>
+<li>有序性-由JVM指令重排序引起</li>
+<li>原理方面：cpu指令并行，volatile写屏障读屏障</li>
+<li>模式方面： 两阶段终止 用volatile实现，同步模式Balking ：实现单例模式 监控线程</li>
+</ul>
+<h1 id="无锁并发-乐观锁方式（实现非阻塞并发访问）"><a href="#无锁并发-乐观锁方式（实现非阻塞并发访问）" class="headerlink" title="无锁并发 乐观锁方式（实现非阻塞并发访问）"></a>无锁并发 乐观锁方式（实现非阻塞并发访问）</h1><h3 id="CAS工作方式："><a href="#CAS工作方式：" class="headerlink" title="CAS工作方式："></a>CAS工作方式：</h3><p>compareAndSet()方法 简称CAS（也有Compare and swap的说法）在CPU底层实现了原子性 底层使用lock cmpxchg指令(X86) </p>
+<h3 id="volatile-1"><a href="#volatile-1" class="headerlink" title="volatile"></a>volatile</h3><p>获取共享变量时，为了保证变量的可见性，需要使用volatile修饰</p>
+<p>CAS必须借助volatile才能读到共享变量的最新值来实现【比较并交换】效果</p>
+<h3 id="无锁效率高不高？"><a href="#无锁效率高不高？" class="headerlink" title="无锁效率高不高？"></a>无锁效率高不高？</h3><ul>
+<li>无锁情况下，即使重试失败，线程依然高速运行，没有停歇，而synchronized会让线程从RUNNABLE进入BLOCKING，进入阻塞，发生上下文切换</li>
+<li>无锁情况下，线程要保持运行，需要CPU支持，没有CPU时间仍然会导致上下文切换，多核才能发挥优势，最好线程数不要超过CPU的核数</li>
+</ul>
+<h3 id="CAS特点"><a href="#CAS特点" class="headerlink" title="CAS特点"></a>CAS特点</h3><ul>
+<li>CAS基于乐观锁的思想，不怕别的线程来修改共享变量，就算改了也没关系，改了我就重试呗</li>
+<li>synchronized基于悲观锁思想 得防止其他线程来修改共享变量，我上了锁你们都别想改</li>
+<li>CAS体现的是无锁并发、无阻塞并发：因为无阻塞，效率提升，但因为需要重试，效率又受到影响。</li>
+</ul>
+<h3 id="ABA问题"><a href="#ABA问题" class="headerlink" title="ABA问题"></a>ABA问题</h3><p> A-&gt;B-&gt;A 然后主线程A-&gt;B依然成功，主线程无法感知到A进行了两次修改</p>
+<p>只要有线程动过了共享变量，那么CAS就应该算作失败，这时候需要加一个版本号 AtomicStampReference</p>
+<h3 id="原子数组"><a href="#原子数组" class="headerlink" title="原子数组"></a>原子数组</h3><p>CAS的 compareAndSet比较的就是引用地址！！因此要对数组内某个元素做修改，看不到</p>
+<h3 id="LongAdder-原子累加器"><a href="#LongAdder-原子累加器" class="headerlink" title="LongAdder 原子累加器"></a>LongAdder 原子累加器</h3><p>当有竞争时，累加器里面的While会循环多次，而Longadder会设置多个累加单元，最后进行汇总，减少了CAS重试次数</p>
+<p>transient序列化时隐藏字段</p>
+<h3 id="Unsafe类"><a href="#Unsafe类" class="headerlink" title="Unsafe类"></a>Unsafe类</h3><p>提供了非常底层的，操作内存、线程的方法，unsafe不能直接调用，只能通过反射获得</p>
+<p>叫unsafe是因为他比较底层，别乱用，但他是线程安全的，很多Locksupport、原子对象都使用了Unsafe实现功能</p>
+<p>JDK的原子整数类实际上就是</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="keyword">private</span> <span class="keyword">volatile</span> <span class="type">int</span> value;</span><br><span class="line"><span class="keyword">static</span> <span class="keyword">private</span> <span class="keyword">final</span> Unsafe unsafe;</span><br><span class="line"><span class="keyword">static</span> <span class="keyword">private</span> <span class="keyword">final</span> <span class="type">long</span> valueOffset;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">decrement</span><span class="params">(<span class="type">int</span> amount)</span>&#123;</span><br><span class="line">    <span class="keyword">while</span>(<span class="literal">true</span>)&#123;</span><br><span class="line">        <span class="type">int</span> pre=<span class="built_in">this</span>.value;</span><br><span class="line">        <span class="type">int</span> next=<span class="built_in">this</span>.value-amount;</span><br><span class="line">        <span class="keyword">if</span>(unsafe.compareAnsSwapInt(<span class="built_in">this</span>,valueOffset,prev,next))</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="总结-1"><a href="#总结-1" class="headerlink" title="总结"></a>总结</h3><ul>
+<li>CAS和volatile</li>
+<li>原子整数、引用、数组，字段更新器，字段累加器</li>
+<li>Unsafe类</li>
+</ul>
+<h2 id="不可变对象"><a href="#不可变对象" class="headerlink" title="不可变对象"></a>不可变对象</h2><p>String类如何保证字符串不可变的</p>
+<ul>
+<li><p>final类 防止被继承</p>
+</li>
+<li><p>保护性拷贝【defensive copy】 构造新String对象时会调用Arrays.copy()生成新的数组作为value引用，避免共享</p>
+</li>
+<li><p>但是这样的话就会导致 创建的对象个数很多 因此JOF23种设计模式【享元模式】 需要重用数量有限的同一类对象时使</p>
+<blockquote>
+<p>JDK中享元模式的体现：</p>
+<ul>
+<li><p>包装类</p>
+<p>  例如Long中的valueOf会缓存-128~127之间的对象，在这个范围内重用对象，大于这个范围才会创建新的Long对象</p>
+</li>
+<li><p>String字符串常量池</p>
+</li>
+<li><p>BigDecimal BigInteger</p>
+</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+<h3 id="final变量原理"><a href="#final变量原理" class="headerlink" title="final变量原理"></a>final变量原理</h3><ul>
+<li>final声明的变量的下面会加写屏障</li>
+<li>静态常量在编译时就已经写死了 不会发生任何变化 编译器直接引用</li>
+</ul>
+<h2 id="线程池"><a href="#线程池" class="headerlink" title="线程池"></a>线程池</h2><h3 id="为什么要用线程池"><a href="#为什么要用线程池" class="headerlink" title="为什么要用线程池"></a>为什么要用线程池</h3><p>高并发下，为每个用户创建一个线程对内存占用相当大，线程太多CPU忙不过来，上下文切换频繁影响性能，因此要充分利用已有线程的潜力</p>
+<p><img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220313145757527.png" alt="image-20220313145757527"></p>
+<h3 id="线程池状态"><a href="#线程池状态" class="headerlink" title="线程池状态"></a>线程池状态</h3><p>用int高3为来表示线程池状态，低29位表示线程池数量</p>
+<table>
+<thead>
+<tr>
+<th>状态名</th>
+<th>高三位</th>
+<th>接受新任务</th>
+<th>处理阻塞任务</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>RUNNING</td>
+<td>111</td>
+<td>Y</td>
+<td>Y</td>
+<td></td>
+</tr>
+<tr>
+<td>SHUTDOWN</td>
+<td>000</td>
+<td>N</td>
+<td>Y</td>
+<td>不会接受新任务，但会处理阻塞队列中的任务</td>
+</tr>
+<tr>
+<td>STOP</td>
+<td>001</td>
+<td>N</td>
+<td>N</td>
+<td>会中断正在执行的任务，抛弃阻塞队列中的任务</td>
+</tr>
+<tr>
+<td>TIDYING</td>
+<td>010</td>
+<td>-</td>
+<td>-</td>
+<td>任务全部执行完毕，活动线程数为0,即将状态</td>
+</tr>
+<tr>
+<td>TERMINATED</td>
+<td>011</td>
+<td>-</td>
+<td>-</td>
+<td>终结状态</td>
+</tr>
+</tbody></table>
+<p>TERMINATED&gt;TIDYING&gt;STOP&gt;SHUTDOWN&gt;RUNNING(负数)</p>
+<p>这些信息存在一个原子变量ctl中，将线程池状态数和线程数合二为一，只需要一次原子操作就可以进行赋值</p>
+<h3 id="ThreadPoolExecutor"><a href="#ThreadPoolExecutor" class="headerlink" title="ThreadPoolExecutor"></a>ThreadPoolExecutor</h3><p>构造方法</p>
+<ul>
+<li>核心线程数</li>
+<li>最大线程数 （多出来救急线程，当线程满阻塞队列满，创建救急线程执行，来的早不如来得巧）</li>
+<li>救急线程最大存活时间 （救急线程&#x3D;临时工，干完活一段时间没活干了，解雇掉，下次高峰期来了，再创建一个，核心线程永远保留在线程池中）</li>
+<li>存活时间单位</li>
+<li>线程工厂（给线程起名字）</li>
+<li>策略方法（阻塞队列满时干啥）</li>
+</ul>
+<p>具体实现</p>
+<ul>
+<li>有界队列时才会创建救急线程</li>
+<li>拒接策略<ul>
+<li><img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220313151449466.png" alt="image-20220313151449466"></li>
+<li>放弃本次任务</li>
+<li>放弃队列中最早的任务，本任务取而代之</li>
+<li>调用者执行本任务</li>
+<li>抛出异常</li>
+</ul>
+</li>
+</ul>
+<h3 id="invokeAll和invokeAny"><a href="#invokeAll和invokeAny" class="headerlink" title="invokeAll和invokeAny"></a>invokeAll和invokeAny</h3><p>invokeALL是异步执行，所以返回future<T>对象</p>
+<p>invokeAny是同步执行，返回object对象，且任意一个任务执行成功后，不再执行剩余的任务</p>
+<h3 id="结束线程池"><a href="#结束线程池" class="headerlink" title="结束线程池"></a>结束线程池</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">shutdown</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">final</span> <span class="type">ReentrantLock</span> <span class="variable">mainLock</span> <span class="operator">=</span> <span class="built_in">this</span>.mainLock;</span><br><span class="line">        mainLock.lock();</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            </span><br><span class="line">            checkShutdownAccess();</span><br><span class="line">            <span class="comment">//修改线程池状态</span></span><br><span class="line">            advanceRunState(SHUTDOWN);</span><br><span class="line">            <span class="comment">//仅结束空闲线程</span></span><br><span class="line">            interruptIdleWorkers();</span><br><span class="line">            onShutdown(); <span class="comment">// hook for ScheduledThreadPoolExecutor</span></span><br><span class="line">        &#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">            mainLock.unlock();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//尝试终结，没有运行的线程可以立刻终结，如果还有运行的线程也不会等</span></span><br><span class="line">        tryTerminate();</span><br><span class="line">    &#125;</span><br><span class="line"><span class="comment">//STOP  范湖在阻塞队列中的任务</span></span><br><span class="line">    <span class="keyword">public</span> List&lt;Runnable&gt; <span class="title function_">shutdownNow</span><span class="params">()</span> &#123;</span><br><span class="line">        List&lt;Runnable&gt; tasks;</span><br><span class="line">        <span class="keyword">final</span> <span class="type">ReentrantLock</span> <span class="variable">mainLock</span> <span class="operator">=</span> <span class="built_in">this</span>.mainLock;</span><br><span class="line">        mainLock.lock();</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            checkShutdownAccess();</span><br><span class="line">            </span><br><span class="line">            advanceRunState(STOP);</span><br><span class="line">            <span class="comment">//打断所有线程</span></span><br><span class="line">            interruptWorkers();</span><br><span class="line">            <span class="comment">//获取剩余任务</span></span><br><span class="line">            tasks = drainQueue();</span><br><span class="line">        &#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">            mainLock.unlock();</span><br><span class="line">        &#125;</span><br><span class="line">        tryTerminate();</span><br><span class="line">        <span class="keyword">return</span> tasks;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="创建多少个线程合适"><a href="#创建多少个线程合适" class="headerlink" title="创建多少个线程合适"></a>创建多少个线程合适</h3><ul>
+<li><p>线程数目过少不能充分利用系统资源</p>
+</li>
+<li><p>过大会导致更多的上下文切换</p>
+</li>
+<li><p>CPU密集型运算：线程个数&#x3D;CPU核心数+1，+1保证当前线程由于页缺失或其他原因导致的暂停，额外的线程能够顶上去，保证CPU时钟周期不被浪费</p>
+</li>
+<li><p>I&#x2F;O密集型运算：IO操作、远程RPC调用、操作数据库，CPU就闲下来了，可以利用多线程提高它的利用率，经验公式如下：<br>  $$<br>  线程数&#x3D;核数* 期望CPU利用率*总时间(CPU计算时间+等待时间)&#x2F;CPU总时间<br>  $$</p>
+</li>
+</ul>
+<h3 id="tomcat线程池"><a href="#tomcat线程池" class="headerlink" title="tomcat线程池"></a>tomcat线程池</h3><p><img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220313181143460.png" alt="image-20220313181143460"></p>
+<ul>
+<li>LimitLatch 用来限流，可以控制最大连接个数，类似 J.U.C 中的 Semaphore 后面再讲</li>
+<li>Acceptor 只负责【接收新的 socket 连接】</li>
+<li>Poller 只负责监听 socket channel 是否有【可读的 I&#x2F;O 事件】</li>
+<li>一旦可读，封装一个任务对象（socketProcessor），提交给 Executor 线程池处理</li>
+<li>Executor 线程池中的工作线程最终负责【处理请求】</li>
+</ul>
+<h3 id="Fork-x2F-Join"><a href="#Fork-x2F-Join" class="headerlink" title="Fork&#x2F;Join"></a>Fork&#x2F;Join</h3><p>t1.fork() 创建线程分治执行</p>
+<p>t1.join() 等待返回结果</p>
+<h1 id="JUC"><a href="#JUC" class="headerlink" title="JUC"></a>JUC</h1><h3 id="AQS原理"><a href="#AQS原理" class="headerlink" title="AQS原理"></a>AQS原理</h3><p>AbstractQueuedSynchronizer 是阻塞式锁和相关同步器工具的框架</p>
+<ul>
+<li>用 state 属性来表示资源的状态（分独占模式和共享模式），子类需要定义如何维护这个状态，控制如何获取<br>  锁和释放锁 <ul>
+<li>getState - 获取 state 状态</li>
+<li>setState - 设置 state 状态</li>
+<li>compareAndSetState - cas 机制设置 state 状态</li>
+</ul>
+</li>
+<li>独占模式是只有一个线程能够访问资源，而共享模式可以允许多个线程访问资源</li>
+<li>提供了基于 FIFO 的等待队列，acquire()调用锁被占用时等待，类似于 Monitor 的 EntryList</li>
+<li>条件变量来实现等待、唤醒机制，支持多个条件变量，类似于 Monitor 的 WaitSet</li>
+<li>tryAcquire\tryRelease\tryAcquireShared\tryAcquireShared用到的话必须重写</li>
+</ul>
+<h3 id="ReentrantLock原理"><a href="#ReentrantLock原理" class="headerlink" title="ReentrantLock原理"></a>ReentrantLock原理</h3><p><img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220313193847653.png" alt="image-20220313193847653"></p>
+<ul>
+<li><p>有一个实现了AQS的同步器sync(可以是公平的或分公平的)来管理加锁解锁	</p>
+</li>
+<li><p>当调用lock时，进入sync的lock方法，调用sync的cas方法，cas失败则调用同步器的acquire方法，acquire 会tryaquire一次，不成功后将Node加入Node队列，队列是单向链表（图错了），且有dummy节点，有first tail节点，再加入队列时还会再挣扎几次</p>
+<p>  <img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220313200543328.png" alt="image-20220313200543328"></p>
+</li>
+<li><p>可重入原理，计数和比较线程</p>
+</li>
+<li><p>阻塞时可打断原理</p>
+<ul>
+<li>可打断模式，等待时被打断，直接抛出异常</li>
+<li>不可打断模式下，在AQS队列里，即使被打断，仍然在队列里等待但要记录被打断过，等到获得锁时返回 等待锁过程中是否被打断过，如果被打断过，再次调用被打断</li>
+<li>其实AQS里面，所谓的阻塞其实就是在doAcquire方法里Park住了，这时候其他线程（前驱结点）唤醒他，需要通过unpark来叫醒继续运行，此外unpark不会设置打断位，可以通过判断打断位看看在park过程中是否被interrupt过</li>
+</ul>
+</li>
+<li><p>公平锁</p>
+<ul>
+<li>非公平锁模式，看到getstate&#x3D;0直接开抢</li>
+<li>公平锁模式，看到getstate&#x3D;0，先看看队列里有没有线程还</li>
+</ul>
+</li>
+<li><p>条件变量</p>
+<ul>
+<li>当调用await时，将当前线程包装成Node加入条件变量对应的阻塞队列中去，因为Park是基于线程调用的，所以必须得有线程的引用，park住然后唤醒下一个节点</li>
+<li>signal方法 唤醒条件变量，先要检查唤醒线程是否为持有者，将条件变量 等待队列的第一个线程取出，让他重新加入锁的等待队列</li>
+</ul>
+</li>
+</ul>
+<h2 id="读写锁"><a href="#读写锁" class="headerlink" title="读写锁"></a>读写锁</h2><h3 id="ReentrantReadWriteLock"><a href="#ReentrantReadWriteLock" class="headerlink" title="ReentrantReadWriteLock"></a>ReentrantReadWriteLock</h3><p>为了实现 读读并发，提升性能</p>
+<p>该Lock里面有两个类 一个是readlock一个是writelock</p>
+<p>注意事项</p>
+<ul>
+<li>读锁不支持条件变量</li>
+<li>重入时不支持升级，即持有锁读锁的情况下获取写锁，会导致写锁永久等待</li>
+<li>重入时支持降级，即持有写锁 情况下去获取读锁</li>
+</ul>
+<h3 id="读写锁实现缓存、缓存更新策略"><a href="#读写锁实现缓存、缓存更新策略" class="headerlink" title="读写锁实现缓存、缓存更新策略"></a>读写锁实现缓存、缓存更新策略</h3><p>更新时，是先清缓存还是想先更新数据库？</p>
+<ul>
+<li><p>先清缓存</p>
+<p>  <img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220314095436880.png" alt="image-20220314095436880"></p>
+</li>
+<li><p>先更数据库</p>
+<p>  <img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220314095627142.png" alt="image-20220314095627142"></p>
+</li>
+</ul>
+<h3 id="读写锁设计原理"><a href="#读写锁设计原理" class="headerlink" title="读写锁设计原理"></a>读写锁设计原理</h3><ul>
+<li>state高16位给读锁用，低16位给写锁用，0未加锁，1已枷锁，大于1锁重入</li>
+</ul>
+<p><img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220314100656134.png" alt="image-20220314100656134"></p>
+<p>每个Node有waitStatus，等于-1表示有职责去唤醒后继节点，等于0没事，和AQS一样，因为本来就是基于AQS实现的嘛，</p>
+<p>每一个Node还有自己的状态，shared 和 Ex</p>
+<p><img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220314102851826.png" alt="image-20220314102851826"></p>
+<p>读锁结束后State-1 减到0唤醒老二</p>
+<p><img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220314144947794.png" alt="image-20220314144947794"></p>
+<h3 id="stampedLock"><a href="#stampedLock" class="headerlink" title="stampedLock"></a>stampedLock</h3><p>因为AQS里面读写锁实现还是靠park，每次读都要靠AQS 修改状态，性能依然不够牛逼，比不上不加锁，stampedLock特点使用读锁写锁时都必须配合【戳】使用</p>
+<p>通过先读 然后验证stamp</p>
+<p>乐观读不支持条件变量，不支持可重入</p>
+<h3 id="Semaphore"><a href="#Semaphore" class="headerlink" title="Semaphore"></a>Semaphore</h3><p>acquire() 和 Release() 类似于PV操作</p>
+<p>本质上也是利用AQS实现的同步器类，把信号量存在了state里，</p>
+<p><img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220314132511869.png" alt="image-20220314132511869"></p>
+<h3 id="CountdownLatch"><a href="#CountdownLatch" class="headerlink" title="CountdownLatch"></a>CountdownLatch</h3><p>用来进行线程同步协作，等待所有线程完成倒计时</p>
+<p>其中构造参数用来初始化等待计数值，await()用来等待计数归零，countDown()用来让减一</p>
+<p>为什么不用join呢，因为如果是线程池来调度，线程不会销毁，join永远等不到，其次是只要其他线程得到我需要的结果就可以让计数减一，不一定非得执行完毕</p>
+<h3 id="CycliBarrier"><a href="#CycliBarrier" class="headerlink" title="CycliBarrier"></a>CycliBarrier</h3><p>循环删栏，用来进行线程协作，等待线程满足某个计数。构造时设置【计数个数】，每个线程执行到某个需要【同步】的时刻调用await()方法进行等地啊，当等待的线程数满足【计数个数】时，继续执行，【人满发车】</p>
+<h1 id="线程安全集合"><a href="#线程安全集合" class="headerlink" title="线程安全集合"></a>线程安全集合</h1><p>线程安全集合主要分为三大类：</p>
+<ul>
+<li>遗留的线程安全几何：Hashtable,vector 都是synchronized实现并发度较低，效率不高</li>
+<li>使用Collections装饰的线程安全集合，全TM都是synchronized了一个mutex,(mutal exclusive)，装模作样的</li>
+<li>JUC下的线程安全集合类<ul>
+<li>Blocking 典型案例 阻塞队列，大部分实现基于锁，并提供用来阻塞的方法</li>
+<li>CopyOnWrite 修改时拷贝，避免读写时的线程安全问题，适合读多写少场景，修改开销较重</li>
+<li>Concurrent<ul>
+<li>内部很多操作用CAS优化，一般可以提供较高的吞吐量</li>
+<li>弱一致性<ul>
+<li>遍历时弱一致性，例如当使用迭代器遍历时，如果容器发生了修改，迭代器仍然可以继续遍历，但内容是旧的<ul>
+<li>求大小弱一致性，size操作未必是100%准确？</li>
+</ul>
+</li>
+<li>读取弱一致性</li>
+<li>这里的弱一致性是fail-save安全失败模式的实现原理，获得原集合的一份拷贝，在拷贝而来的集合上进行遍历，原集合发生的改变时，不会抛出CME异常，对于非安全容器来讲，使用fail-fast机制，如果遍历时发生了修改，抛出ConcurrentModificationException，不再继续遍历</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="ConcurrentHashMap"><a href="#ConcurrentHashMap" class="headerlink" title="ConcurrentHashMap"></a>ConcurrentHashMap</h3><p>在每个链表头上加锁，锁粒度较小</p>
+<p><code>computeIfAbsent(K key, Function&lt;? super K, ? extends V&gt; mappingFunction）</code>如果缺少一个key,则计算生成一个value，然后将key value放入map </p>
+<ul>
+<li>JDK7 HashMap 扩容过程会引发并发死链，JDK8 虽然对扩容算法进行了调整，不再将元素加入链表头，而是保持与扩容前一样的顺序，但还会出现线程安全问题</li>
+</ul>
+<p>JDK8</p>
+<ul>
+<li>懒惰初始化，构造方法中仅计算table大小，第一次使用时才会真正创建table </li>
+<li>寻找数组下标 不再是长度取余 而是 (n-1)&amp; h，数组长度-1 【与】spared(key.hashcode())</li>
+<li>put流程<ol>
+<li>判断参数是否为null</li>
+<li>判断table是否为Null，为Null进行初始化，初始化过程使用CAS</li>
+<li>如果无头节点，即无冲突，创建并添加链表头节点</li>
+<li>如果有头节点.hash等于-1说明正在扩容，要帮忙扩容，真TM一点都不闲着</li>
+<li>有头结点，且不在扩容，锁住头结点判断是链表还是红黑树，判断是否存在相同key，往里插入</li>
+<li>判断链表长度是否大于树化阈值，转为红黑树 ，结束</li>
+</ol>
+</li>
+<li>transfer流程（扩容）<ol>
+<li>参数是tab和nexttab，如果nexttab为null创建一个大小为tab*2的Node数组</li>
+<li>tab往nexttab搬迁工作，以一个一个链表为单位<ol>
+<li>链表头为NULL，表示已经被处理，将链表头替换成ForwardingNode</li>
+<li>链表头已经是ForwardingNode，处理下一个链表</li>
+<li>否则锁住链表，进行搬运，内部还要考虑是普通节点、树节点的搬迁逻辑！</li>
+</ol>
+</li>
+</ol>
+</li>
+</ul>
+<h5 id="JDK7"><a href="#JDK7" class="headerlink" title="JDK7"></a>JDK7</h5><ul>
+<li>维护一个segment数组，每个Segment对应一把锁，多个线程访问不同的Segment没有冲突，但默认是16，不是懒加载，每个Segment对应一个小的哈希表，以此实现分段锁</li>
+<li><img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220314195158551.png" alt="image-20220314195158551"></li>
+</ul>
+<h3 id="LinkedBlockingQueue"><a href="#LinkedBlockingQueue" class="headerlink" title="LinkedBlockingQueue"></a>LinkedBlockingQueue</h3><ul>
+<li>初始化链表last&#x3D;head&#x3D;new Node<E>(null);Dummy节点用来占位，item为null</li>
+</ul>
+<p><img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220314195540213.png" alt="image-20220314195540213"></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Node&lt;E&gt; h=head;</span><br><span class="line">Noed&lt;E&gt; first=h.next;</span><br><span class="line">h.next=h; <span class="comment">//出队是next指向自己 帮助GC</span></span><br><span class="line">head=first;</span><br><span class="line">E x=first.item;</span><br><span class="line">first.item=<span class="literal">null</span>; <span class="comment">//老二就成了dummy了 牛鼻</span></span><br><span class="line"><span class="keyword">return</span> x</span><br></pre></td></tr></table></figure>
+
+
+
+<p><img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220314200128763.png" alt="image-20220314200128763"></p>
+<ul>
+<li>高明之处：用了两把锁和dummy节点<ul>
+<li>用一把锁，同一时刻，最多只允许有一个线程（生产者或消费者）执行</li>
+<li>用两把锁，同一时刻可以允许两个线程同时（一个生产者一个消费者）执行<ul>
+<li>消费者之间串行</li>
+<li>生产者之间串行</li>
+</ul>
+</li>
+<li>线程安全分析（同时存在生产者消费者）<ul>
+<li>节点总数大于2，putlock保证的是last节点安全，takeLock保证head节点安全，两把锁保证入队和出队没有竞争</li>
+<li>节点总数等于2,一个dummy节点，一个正常节点，两把锁锁两个对象，不会竞争</li>
+<li>节点总数等于1，只有一个节点，相当于队列为空，这时候take会因为empty条件陷入阻塞，</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="ArrayBlockingQueue"><a href="#ArrayBlockingQueue" class="headerlink" title="ArrayBlockingQueue"></a>ArrayBlockingQueue</h3><ul>
+<li>Linked支持有界，Array强制有界</li>
+<li>Linked链表实现，Array数组实现</li>
+<li>linked懒惰初始化，Array提前初始化Node数组</li>
+<li>Linked每次入队生成新的Node，Array的Node提前创建好</li>
+<li>Linked两把锁，Array一把锁</li>
+</ul>
+<h3 id="ConcurrentLinkedQueue"><a href="#ConcurrentLinkedQueue" class="headerlink" title="ConcurrentLinkedQueue"></a>ConcurrentLinkedQueue</h3><ul>
+<li>两把【锁】，同一时刻允许两个线程（生产者和消费者）执行</li>
+<li>dummy节点的引入让两把【锁】将来锁住的是不同对象，避免竞争</li>
+<li>这个【锁】使用了CAS实现，所以说这个【锁】不是真的锁</li>
+</ul>
+<h3 id="CopyOnWriteArrayList"><a href="#CopyOnWriteArrayList" class="headerlink" title="CopyOnWriteArrayList"></a>CopyOnWriteArrayList</h3><p>CopyOnWriteSet里面也是套了一个CopyOnWriteArrayList，写入时是addIfAbsent</p>
+<p>底层实现都采用【写入时拷贝】的思想，增删查改操作会将底层数组拷贝一份，更改操作在新数组上进行，这时不影响其他线程的并发读，读写分离，读读并发，读写并发，只有写写互斥</p>
+<p> 也是弱一致性，比如Get后其他元素在中间做操作，其实Get还是原来的东西，比如获得迭代器，实在旧数组上进行迭代，但不要觉得弱一致性不好，数据库的MVCC就是弱一致性的表现，高并发和一致性是矛盾的，需要权衡</p>
+<h3 id="ThreadLocal"><a href="#ThreadLocal" class="headerlink" title="ThreadLocal"></a>ThreadLocal</h3><p><img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/image-20220314205504786.png" alt="image-20220314205504786"></p>
+<p>多线程访问共享变量时如果不考虑锁、CAS就会产生线程安全问题，但如果给每个线程都建立一个该变量的副本，每个线程都操作自己的变量就没问题了。</p>
+<p>每一个Thread维护了一个ThreadLocalMap，可以通过ThreadLocal找到对应的线程本地变量</p>
+<h5 id="ThreadLocalMap中的Entry是弱引用"><a href="#ThreadLocalMap中的Entry是弱引用" class="headerlink" title="ThreadLocalMap中的Entry是弱引用"></a>ThreadLocalMap中的Entry是弱引用</h5><p>①强引用：Java中默认的引用类型，一个对象如果具有强引用那么只要这种引用还存在就不会被GC。</p>
+<p>②软引用：简言之，如果一个对象具有弱引用，在JVM发生OOM之前（即内存充足够使用），是不会GC这个对象的；只有到JVM内存不足的时候才会GC掉这个对象。软引用和一个引用队列联合使用，如果软引用所引用的对象被回收之后，该引用就会加入到与之关联的引用队列中</p>
+<p>③弱引用（这里讨论ThreadLocalMap中的Entry类的重点）：如果一个对象只具有弱引用，那么这个对象就会被垃圾回收器GC掉(被弱引用所引用的对象只能生存到下一次GC之前，当发生GC时候，无论当前内存是否足够，弱引用所引用的对象都会被回收掉)。弱引用也是和一个引用队列联合使用，如果弱引用的对象被垃圾回收期回收掉，JVM会将这个引用加入到与之关联的引用队列中。若引用的对象可以通过弱引用的get方法得到，当引用的对象呗回收掉之后，再调用get方法就会返回null</p>
+<p>④虚引用：虚引用是所有引用中最弱的一种引用，其存在就是为了将关联虚引用的对象在被GC掉之后收到一个通知。（不能通过get方法获得其指向的对象）</p>
+<p>ThreadLocalMap中的Key是ThreadLocal的弱引用，gc后就会被回收，但是value依然存在，就可能导致内存泄漏，因此使用完毕后需要调用remove方法避免内存泄漏，线程结束value会被销毁，但线程池往往TM不结束线程</p>
+<h5 id="有什么必要用thread-local"><a href="#有什么必要用thread-local" class="headerlink" title="有什么必要用thread local"></a>有什么必要用thread local</h5><p>一个web程序 多线程模型 想要给每个线程创建一个全局变量 user 该如何做 </p>
+<p>很自然地想到 创建一个静态的map 他在方法区里 任意一个线程都可以访问到  map的Key是thread Value是user</p>
+<p>如果存多个变量怎么办 创建多个map </p>
+<p>但是非常的不方便 </p>
+<p>所以为每个线程加一个map 你通过threadlocal这个key 就能找到对应的value</p>
+<p>一种是  WrapperClass.userMap(thread)</p>
+<p>一种是   thread.threadlocalmap(threadlocal)</p>
+<h2 id="Happens-Before"><a href="#Happens-Before" class="headerlink" title="Happens Before"></a>Happens Before</h2><ul>
+<li><p>强内存模型：内存模型易于理解易于编程，为程序员提供足够强的内存可见性保证</p>
+</li>
+<li><p>弱内存模型：内存模型束缚尽可能少，尽可能多地进行优化来提升性能，但影响程序员的理解性</p>
+</li>
+</ul>
+<p>为了在俩者之间取得平衡，JMM 通过Happens-before作为其核心概念</p>
+<p>Happens-before 是 JMM 的灵魂，它是判断数据是否存在竞争，线程是否安全的非常有用的手段。</p>
+<p>JMM 其实是在遵循一个基本原则，即只要不改变程序的执行结果（指的是单线程程序和正确同步的多线程程序），编译器和处理器怎么优化都行。</p>
+<p>as-if-serial 语义：不管怎么重排序，单线程环境下程序的执行结果不能被改变。</p>
+<p>本质上来说 Happens-before 关系和 as-if-serial 语义是一回事，<strong>都是为了在不改变程序执行结果的前提下，尽可能地提高程序执行的并行度</strong>。只不过后者只能作用在单线程，而前者可以作用在正确同步的多线程环境下：</p>
+<ul>
+<li>as-if-serial 语义保证单线程内程序的执行结果不被改变，Happens-before 关系保证正确同步的多线程程序的执行结果不被改变。</li>
+<li>as-if-serial 语义给编写单线程程序的程序员创造了一个幻境：单线程程序是按程序的顺序来执行的。Happens-before 关系给编写正确同步的多线程程序的程序员创造了一个幻境：正确同步的多线程程序是按 Happens-before 指定的顺序来执行的。</li>
+</ul>
+<h2 id="IO多路复用"><a href="#IO多路复用" class="headerlink" title="IO多路复用"></a>IO多路复用</h2><p>解决C10K问题，同时1万个并发咋办？创建10K个进程？10K个线程？线程池？都扛不住，使用一个进程来维护多个Sokcet，称为IO多路复用。</p>
+<p>一个进程虽然任一时刻只能处理一个请求，但是处理每个请求的事件时，耗时控制在 1 毫秒以内，这样 1 秒内就可以处理上千个请求，把时间拉长来看，多个请求复用了一个进程，这就是多路复用，这种思想很类似一个 CPU 并发多个进程，所以也叫做时分多路复用。</p>
+<h3 id="select-x2F-poll"><a href="#select-x2F-poll" class="headerlink" title="select&#x2F;poll"></a>select&#x2F;poll</h3><p>一个进程管理N个Socket，对应N个文件描述符，内核态会扫一遍描述符，如果S检查到有事件产生设计标记位（bitmap(select实现）或者链表（poll实现机制），再拷贝到用户态，用户态下该进程再扫一遍描述符，扫到了再处理，时间复杂度O（n)</p>
+<blockquote>
+<p>select 实现多路复用的方式是，将已连接的 Socket 都放到一个<strong>文件描述符集合</strong>，然后调用 select 函数将文件描述符集合<strong>拷贝</strong>到内核里，让内核来检查是否有网络事件产生，检查的方式很粗暴，就是通过<strong>遍历</strong>文件描述符集合的方式，当检查到有事件产生后，将此 Socket 标记为可读或可写， 接着再把整个文件描述符集合<strong>拷贝</strong>回用户态里，然后用户态还需要再通过<strong>遍历</strong>的方法找到可读或可写的 Socket，然后再对其处理。</p>
+<p>所以，对于 select 这种方式，需要进行 <strong>2 次「遍历」文件描述符集合</strong>，一次是在内核态里，一个次是在用户态里 ，而且还会发生 <strong>2 次「拷贝」文件描述符集合</strong>，先从用户空间传入内核空间，由内核修改后，再传出到用户空间中。</p>
+<p>select 使用固定长度的 BitsMap，表示文件描述符集合，而且所支持的文件描述符的个数是有限制的，在 Linux 系统中，由内核中的 FD_SETSIZE 限制， 默认最大值为 <code>1024</code>，只能监听 0~1023 的文件描述符。</p>
+<p>poll 不再用 BitsMap 来存储所关注的文件描述符，取而代之用动态数组，以链表形式来组织，突破了 select 的文件描述符个数限制，当然还会受到系统文件描述符限制。</p>
+<p>但是 poll 和 select 并没有太大的本质区别，<strong>都是使用「线性结构」存储进程关注的 Socket 集合，因此都需要遍历文件描述符集合来找到可读或可写的 Socket，时间复杂度为 O(n)，而且也需要在用户态与内核态之间拷贝文件描述符集合</strong>，这种方式随着并发数上来，性能的损耗会呈指数级增长。</p>
+</blockquote>
+<h3 id="epoll"><a href="#epoll" class="headerlink" title="epoll"></a>epoll</h3><p>socket是有序的，用红黑树来存取，log(n)</p>
+<blockquote>
+<p><em>第一点</em>，epoll 在内核里使用<strong>红黑树来跟踪进程所有待检测的文件描述字</strong>，把需要监控的 socket 通过 <code>epoll_ctl()</code> 函数加入内核中的红黑树里，红黑树是个高效的数据结构，增删查一般时间复杂度是 <code>O(logn)</code>，通过对这棵黑红树进行操作，这样就不需要像 select&#x2F;poll 每次操作时都传入整个 socket 集合，只需要传入一个待检测的 socket，减少了内核和用户空间大量的数据拷贝和内存分配。</p>
+<p><em>第二点</em>， epoll 使用事件驱动的机制，内核里<strong>维护了一个链表来记录就绪事件</strong>，当某个 socket 有事件发生时，通过回调函数内核会将其加入到这个就绪事件列表中，当用户调用 <code>epoll_wait()</code> 函数时，只会返回有事件发生的文件描述符的个数，不需要像 select&#x2F;poll 那样轮询扫描整个 socket 集合，大大提高了检测的效率。</p>
+<p>网上文章不少说，<code>epoll_wait</code> 返回时，对于就绪的事件，epoll使用的是共享内存的方式，即用户态和内核态都指向了就绪链表，所以就避免了内存拷贝消耗。</p>
+<p>这是错的！看过 epoll 内核源码的都知道，<strong>压根就没有使用共享内存这个玩意</strong>。</p>
+<p><img src="/%E5%A4%9A%E7%BA%BF%E7%A8%8B.assets/v2-c7246e74cc64c786360ae12e266e0362_r.jpg" alt="img"></p>
+<p>使用边缘触发模式时，当被监控的 Socket 描述符上有可读事件发生时，<strong>服务器端只会从 epoll_wait 中苏醒一次</strong>，即使进程没有调用 read 函数从内核读取数据，也依然只苏醒一次，因此我们程序要保证一次性将内核缓冲区的数据读取完；</p>
+<p>使用水平触发模式时，当被监控的 Socket 上有可读事件发生时，<strong>服务器端不断地从 epoll_wait 中苏醒，直到内核缓冲区数据被 read 函数读完才结束</strong>，目的是告诉我们有数据需要读取；</p>
+</blockquote>
+<ul>
+<li><ul>
+<li></li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/02/04/JAVA-%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LP's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2021/02/04/JAVA-%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/" itemprop="url">JAVA 内存模型</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-02-04T11:49:52+08:00">
+                2021-02-04
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%BC%80%E5%8F%91/" itemprop="url" rel="index">
+                    <span itemprop="name">开发</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  516 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  2 分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>A happens before B 说白了就是 A必须发生在B之前，不能被reorder到B之后</p>
+<p>JMM 提供了一些happens before规则 来guarantee 正确编写的多线程程序的语义</p>
+<p>JAVA Happens Before Guarantee is a set of restrictions on instruction reorderint to avoid instruction reordering breaking the Java visibility guarantees:</p>
+<ul>
+<li><p>End of synchronized block happens before entry into subsequent synchronized block which is synchronized on the same monitor object</p>
+</li>
+<li><p>Thread.start() happens before its Runnable.run() method is called</p>
+</li>
+<li><p>Several happens before guarantees in java.util.concurrent APIs</p>
+</li>
+<li><p>Etc.</p>
+</li>
+</ul>
+<p>几个可见性案例：</p>
+<p>在JMM中，如果一个操作执行的结果需要对另一个操作可见，那么这两个操作之间必须要存在happens-before关系。</p>
+<blockquote>
+<p>两个操作之间具有happens-before关系，并不意味着前一个操作必须要在后一个 操作之前执行！happens-before仅仅要求前一个操作（执行的结果）对后一个操作可见，且前一 个操作按顺序排在第二个操作之前（the first is visible to and ordered before the second）。</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// JYYOS 指令重排导致的可见性问题</span></span><br><span class="line"><span class="comment">// 线程本地内存也会导致该可见性问题</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">OutofOrderExecution</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="type">int</span> <span class="variable">x</span> <span class="operator">=</span> <span class="number">0</span>, y = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="type">int</span> <span class="variable">a</span> <span class="operator">=</span> <span class="number">0</span>, b = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span></span><br><span class="line">            <span class="keyword">throws</span> InterruptedException &#123;</span><br><span class="line">        <span class="type">Thread</span> <span class="variable">t1</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Thread</span>(<span class="keyword">new</span> <span class="title class_">Runnable</span>() &#123;</span><br><span class="line">            <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">run</span><span class="params">()</span> &#123;</span><br><span class="line">                a = <span class="number">1</span>;</span><br><span class="line">                x = b;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line">        <span class="type">Thread</span> <span class="variable">t2</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Thread</span>(<span class="keyword">new</span> <span class="title class_">Runnable</span>() &#123;</span><br><span class="line">            <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">run</span><span class="params">()</span> &#123;</span><br><span class="line">                b = <span class="number">1</span>;</span><br><span class="line">                y = a;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line">        t1.start();</span><br><span class="line">        t2.start();</span><br><span class="line">        t1.join();</span><br><span class="line">        t2.join();</span><br><span class="line">        System.out.println(<span class="string">&quot;(&quot;</span> + x + <span class="string">&quot;,&quot;</span> + y + <span class="string">&quot;)&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 生产者消费者模式 下 指令重排、缓存导致可见性问题</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Frame</span>&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">FrameExchanger</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="type">long</span> framesStoredCount=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="type">long</span> framesTakenCount=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">volatile</span> <span class="type">boolean</span> hasNewFrame=<span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">private</span> Frame frame=<span class="literal">null</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">storeFrame</span><span class="params">(Frame frame)</span>&#123;</span><br><span class="line">        <span class="built_in">this</span>.frame=frame;</span><br><span class="line">        <span class="built_in">this</span>.framesStoredCount++;</span><br><span class="line">        <span class="built_in">this</span>.hasNewFrame=<span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> Frame <span class="title function_">takeFrame</span><span class="params">()</span>&#123;</span><br><span class="line">        <span class="keyword">while</span>(!hasNewFrame);</span><br><span class="line">        Frame newFrame=<span class="built_in">this</span>.frame;</span><br><span class="line">        <span class="built_in">this</span>.framesTakenCount++;</span><br><span class="line">        <span class="built_in">this</span>.hasNewFrame=<span class="literal">false</span>;</span><br><span class="line">        <span class="keyword">return</span> newFrame;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 单例模式下 指令重排序导致部分实例化问题</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Singleton</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="type">Singleton</span> <span class="variable">singleton</span> <span class="operator">=</span> <span class="literal">null</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="variable">f1</span> <span class="operator">=</span> <span class="number">1</span>;   <span class="comment">// 触发部分初始化问题</span></span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="variable">f2</span> <span class="operator">=</span> <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="title function_">Singleton</span><span class="params">()</span> &#123;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> Singleton <span class="title function_">getInstance</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (singleton == <span class="literal">null</span>) &#123;</span><br><span class="line">            <span class="keyword">synchronized</span> (Singleton.class) &#123;</span><br><span class="line">                <span class="comment">// must be a complete instance</span></span><br><span class="line">                <span class="keyword">if</span> (singleton == <span class="literal">null</span>) &#123;</span><br><span class="line">                    singleton = <span class="keyword">new</span> <span class="title class_">Singleton</span>();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> singleton;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/04/JavaScript%E7%AC%94%E8%AE%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LP's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/12/04/JavaScript%E7%AC%94%E8%AE%B0/" itemprop="url">JavaScript笔记</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-12-04T21:15:22+08:00">
+                2020-12-04
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%89%8D%E7%AB%AF/" itemprop="url" rel="index">
+                    <span itemprop="name">前端</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  2.7k 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  10 分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="常规"><a href="#常规" class="headerlink" title="常规"></a>常规</h2><h3 id="双等号与三等号"><a href="#双等号与三等号" class="headerlink" title="双等号与三等号"></a>双等号与三等号</h3><p>&#x3D;&#x3D;：它会自动转换数据类型再比较，很多时候，会得到非常诡异的结果；</p>
+<p>&#x3D;&#x3D;&#x3D;：它不会自动转换数据类型，如果数据类型不一致，返回<code>false</code>，如果一致，再比较。</p>
+<p>不要使用<code>==</code>比较，始终坚持使用<code>===</code>比较！！</p>
+<p>NAN和谁比都是False</p>
+<p>比NAN用isNaN()</p>
+<h3 id="null和undefined"><a href="#null和undefined" class="headerlink" title="null和undefined"></a>null和undefined</h3><p>空和未定义</p>
+<p>全部用null</p>
+<h3 id="var声明与不声明"><a href="#var声明与不声明" class="headerlink" title="var声明与不声明"></a>var声明与不声明</h3><p>不声明就是全局 多个文件冲突 </p>
+<p>var一下就是 当前作用域</p>
+<p>ECMA后续推出 strict模式要求都得声明var!</p>
+<h3 id="字符串模版"><a href="#字符串模版" class="headerlink" title="字符串模版"></a>字符串模版</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> name = <span class="string">&#x27;小明&#x27;</span>;</span><br><span class="line"><span class="keyword">var</span> age = <span class="number">20</span>;</span><br><span class="line"><span class="keyword">var</span> message = <span class="string">`你好, <span class="subst">$&#123;name&#125;</span>, 你今年<span class="subst">$&#123;age&#125;</span>岁了!`</span>;</span><br><span class="line"><span class="title function_">alert</span>(message);</span><br></pre></td></tr></table></figure>
+
+<h3 id="JS类"><a href="#JS类" class="headerlink" title="JS类"></a>JS类</h3><p>属性名必须是一个有效的变量名，用<code>.</code>访问</p>
+<p>不是有效的变量名（特殊符号）用<code>[&#39;&#39;]</code>访问</p>
+<h3 id="JS类和Map"><a href="#JS类和Map" class="headerlink" title="JS类和Map"></a>JS类和Map</h3><p>类的key必须是字符串 </p>
+<p>ES6: Map可以是Number或者其他 新增了(set)	</p>
+<h3 id="for…in-和-for…of-（ES6-的区别"><a href="#for…in-和-for…of-（ES6-的区别" class="headerlink" title="for…in 和 for…of （ES6) 的区别"></a>for…in 和 for…of （ES6) 的区别</h3><p><code>for ... in</code>循环由于历史遗留问题，它遍历的实际上是对象的属性名称。一个<code>Array</code>数组实际上也是一个对象，它的每个元素的索引被视为一个属性。</p>
+<p><code>for ... of</code>循环则完全修复了这些问题，它只循环集合本身的元素：</p>
+<p>更好的方式是直接使用<code>iterable</code>内置的<code>forEach</code>方法，它接收一个函数，每次迭代就自动回调该函数。以<code>Array</code>为例</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">a.<span class="title function_">forEach</span>(<span class="keyword">function</span> (<span class="params">element, index, array</span>) &#123;</span><br><span class="line">    <span class="comment">// element: 指向当前元素的值</span></span><br><span class="line">    <span class="comment">// index: 指向当前索引</span></span><br><span class="line">    <span class="comment">// array: 指向Array对象本身</span></span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(element + <span class="string">&#x27;, index = &#x27;</span> + index);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h2><h3 id="arguments"><a href="#arguments" class="headerlink" title="arguments"></a>arguments</h3><p>JavaScript还有一个免费赠送的关键字<code>arguments</code>，它只在函数内部起作用，并且永远指向当前函数的调用者传入的所有参数</p>
+<p>实际上<code>arguments</code>最常用于判断传入参数的个数。</p>
+<h3 id="全局作用域"><a href="#全局作用域" class="headerlink" title="全局作用域"></a>全局作用域</h3><p>实际上，JavaScript默认有一个全局对象<code>window</code>，全局作用域的变量实际上被绑定到<code>window</code>的一个属性</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&#x27;use strict&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> course = <span class="string">&#x27;Learn JavaScript&#x27;</span>;</span><br><span class="line"><span class="title function_">alert</span>(course); <span class="comment">// &#x27;Learn JavaScript&#x27;</span></span><br><span class="line"><span class="title function_">alert</span>(<span class="variable language_">window</span>.<span class="property">course</span>); <span class="comment">// &#x27;Learn JavaScript&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="局部作用域"><a href="#局部作用域" class="headerlink" title="局部作用域"></a>局部作用域</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">foo</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i=<span class="number">0</span>; i&lt;<span class="number">100</span>; i++) &#123;</span><br><span class="line">        <span class="comment">//</span></span><br><span class="line">    &#125;</span><br><span class="line">    i += <span class="number">100</span>; <span class="comment">// 仍然可以引用变量i</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//为了解决块级作用域，ES6引入了新的关键字let，用let替代var可以申明一个块级作用域的变量：</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">foo</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> sum = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">let</span> i=<span class="number">0</span>; i&lt;<span class="number">100</span>; i++) &#123;</span><br><span class="line">        sum += i;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// SyntaxError:</span></span><br><span class="line">    i += <span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="ES6-const-常量"><a href="#ES6-const-常量" class="headerlink" title="ES6 const 常量"></a>ES6 const 常量</h3><h3 id="解构赋值"><a href="#解构赋值" class="headerlink" title="解构赋值"></a>解构赋值</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> [x, y, z] = [<span class="string">&#x27;hello&#x27;</span>, <span class="string">&#x27;JavaScript&#x27;</span>, <span class="string">&#x27;ES6&#x27;</span>];</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> [x, [y, z]] = [<span class="string">&#x27;hello&#x27;</span>, [<span class="string">&#x27;JavaScript&#x27;</span>, <span class="string">&#x27;ES6&#x27;</span>]];</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> person = &#123;</span><br><span class="line">    <span class="attr">name</span>: <span class="string">&#x27;小明&#x27;</span>,</span><br><span class="line">    <span class="attr">age</span>: <span class="number">20</span>,</span><br><span class="line">    <span class="attr">gender</span>: <span class="string">&#x27;male&#x27;</span>,</span><br><span class="line">    <span class="attr">passport</span>: <span class="string">&#x27;G-12345678&#x27;</span>,</span><br><span class="line">    <span class="attr">school</span>: <span class="string">&#x27;No.4 middle school&#x27;</span></span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">var</span> &#123;name, age, passport&#125; = person;</span><br></pre></td></tr></table></figure>
+
+<h3 id="this指向"><a href="#this指向" class="headerlink" title="this指向"></a>this指向</h3><p>非严格模式 默认window</p>
+<p>严格模式 默认 undefine </p>
+<p>方法（类的函数）内this指向当前类</p>
+<p>方法里的函数 指向默认 （that&#x3D;this 来找当前类）</p>
+<h3 id="函数-apply-或者-call-绑定函数的this对象"><a href="#函数-apply-或者-call-绑定函数的this对象" class="headerlink" title="函数.apply() 或者 call() 绑定函数的this对象"></a>函数.apply() 或者 call() 绑定函数的this对象</h3><p>第一个参数 函数绑定this对象</p>
+<p>第二个参数 函数本身的参数</p>
+<h3 id="闭包"><a href="#闭包" class="headerlink" title="闭包"></a>闭包</h3><p>在面向对象的程序设计语言里，比如Java和C++，要在对象内部封装一个私有变量，可以用<code>private</code>修饰一个成员变量。</p>
+<p>在没有<code>class</code>机制，只有函数的语言里，借助闭包，同样可以封装一个私有变量。我们用JavaScript创建一个计数器：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&#x27;use strict&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">create_counter</span>(<span class="params">initial</span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> x = initial || <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">return</span> &#123;</span><br><span class="line">        <span class="attr">inc</span>: <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">            x += <span class="number">1</span>;</span><br><span class="line">            <span class="keyword">return</span> x;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> c1 = <span class="title function_">create_counter</span>();</span><br><span class="line">c1.<span class="title function_">inc</span>(); <span class="comment">// 1</span></span><br><span class="line">c1.<span class="title function_">inc</span>(); <span class="comment">// 2</span></span><br><span class="line">c1.<span class="title function_">inc</span>(); <span class="comment">// 3</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> c2 = <span class="title function_">create_counter</span>(<span class="number">10</span>);</span><br><span class="line">c2.<span class="title function_">inc</span>(); <span class="comment">// 11</span></span><br><span class="line">c2.<span class="title function_">inc</span>(); <span class="comment">// 12</span></span><br><span class="line">c2.<span class="title function_">inc</span>(); <span class="comment">// 13</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>在返回的对象中，实现了一个闭包，该闭包携带了局部变量<code>x</code>，并且，从外部代码根本无法访问到变量<code>x</code>。换句话说，闭包就是携带状态的函数，并且它的状态可以完全对外隐藏起来。</p>
+<h3 id="箭头函数-ES6"><a href="#箭头函数-ES6" class="headerlink" title="箭头函数(ES6)"></a>箭头函数(ES6)</h3><p>现在，箭头函数完全修复了<code>this</code>的指向，<code>this</code>总是指向词法作用域，也就是外层调用者<code>obj</code>：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> obj = &#123;</span><br><span class="line">    <span class="attr">birth</span>: <span class="number">1990</span>,</span><br><span class="line">    <span class="attr">getAge</span>: <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">        <span class="keyword">var</span> b = <span class="variable language_">this</span>.<span class="property">birth</span>; <span class="comment">// 1990</span></span><br><span class="line">        <span class="keyword">var</span> <span class="title function_">fn</span> = (<span class="params"></span>) =&gt; <span class="keyword">new</span> <span class="title class_">Date</span>().<span class="title function_">getFullYear</span>() - <span class="variable language_">this</span>.<span class="property">birth</span>; <span class="comment">// this指向obj对象</span></span><br><span class="line">        <span class="keyword">return</span> <span class="title function_">fn</span>();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line">obj.<span class="title function_">getAge</span>(); <span class="comment">// 25</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="时间戳"><a href="#时间戳" class="headerlink" title="时间戳"></a>时间戳</h3><p>时间戳是一个自增的整数，它表示从1970年1月1日零时整的GMT时区开始的那一刻，到现在的毫秒数。假设浏览器所在电脑的时间是准确的，那么世界上无论哪个时区的电脑，它们此刻产生的时间戳数字都是一样的，所以，时间戳可以精确地表示一个时刻，并且与时区无关。</p>
+<h2 id="面向对象"><a href="#面向对象" class="headerlink" title="面向对象"></a>面向对象</h2><h3 id="原型链"><a href="#原型链" class="headerlink" title="原型链"></a>原型链</h3><p>js没有类的概念 只有对象</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">var arr = [1, 2, 3];</span><br><span class="line">arr ----&gt; Array.prototype ----&gt; Object.prototype ----&gt; null</span><br><span class="line"></span><br><span class="line">function foo() &#123;</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line">foo ----&gt; Function.prototype ----&gt; Object.prototype ----&gt; null</span><br></pre></td></tr></table></figure>
+
+<p>由于<code>Function.prototype</code>定义了<code>apply()</code>等方法，因此，所有函数都可以调用<code>apply()</code>方法。</p>
+<h3 id="原型继承实现方法"><a href="#原型继承实现方法" class="headerlink" title="原型继承实现方法"></a>原型继承实现方法</h3><ol>
+<li>定义新的构造函数，并在内部用<code>call()</code>调用希望“继承”的构造函数，并绑定<code>this</code>；</li>
+<li>借助中间函数<code>F</code>实现原型链继承，最好通过封装的<code>inherits</code>函数完成；</li>
+<li>继续在新的构造函数的原型上定义新方法。</li>
+</ol>
+<h3 id="class继承-（ES6）"><a href="#class继承-（ES6）" class="headerlink" title="class继承 （ES6）"></a>class继承 （ES6）</h3><h2 id="浏览器"><a href="#浏览器" class="headerlink" title="浏览器"></a>浏览器</h2><h3 id="cookie"><a href="#cookie" class="headerlink" title="cookie"></a>cookie</h3><p>Cookie是由服务器发送的key-value标示符。因为HTTP协议是无状态的，但是服务器要区分到底是哪个用户发过来的请求，就可以用Cookie来区分。当一个用户成功登录后，服务器发送一个Cookie给浏览器，例如<code>user=ABC123XYZ(加密的字符串)...</code>，此后，浏览器访问该网站时，会在请求头附上这个Cookie，服务器根据Cookie即可区分出用户。</p>
+<p>Cookie还可以存储网站的一些设置，例如，页面显示的语言等等。</p>
+<p>由于JavaScript能读取到页面的Cookie，而用户的登录信息通常也存在Cookie中，这就造成了巨大的安全隐患，这是因为在HTML页面中引入第三方的JavaScript代码是允许的：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 当前页面在wwwexample.com --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;http://www.foo.com/jquery.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    ...</span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>如果引入的第三方的JavaScript中存在恶意代码，则<code>www.foo.com</code>网站将直接获取到<code>www.example.com</code>网站的用户登录信息。</p>
+<p>为了解决这个问题，服务器在设置Cookie时可以使用<code>httpOnly</code>，设定了<code>httpOnly</code>的Cookie将不能被JavaScript读取。这个行为由浏览器实现，主流浏览器均支持<code>httpOnly</code>选项，IE从IE6 SP1开始支持。</p>
+<p>为了确保安全，服务器端在设置Cookie时，应该始终坚持使用<code>httpOnly</code>。</p>
+<h3 id="JS回调"><a href="#JS回调" class="headerlink" title="JS回调"></a>JS回调</h3><p>在JavaScript中，浏览器的JavaScript执行引擎在执行JavaScript代码时，总是以单线程模式执行，也就是说，任何时候，JavaScript代码都不可能同时有多于1个线程在执行。</p>
+<p>你可能会问，单线程模式执行的JavaScript，如何处理多任务？</p>
+<p>在JavaScript中，执行多任务实际上都是异步调用，比如上面的代码</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reader.readAsDataURL(file);</span><br></pre></td></tr></table></figure>
+
+<p>就会发起一个异步操作来读取文件内容。因为是异步操作，所以我们在JavaScript代码中就不知道什么时候操作结束，因此需要先设置一个回调函数：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">reader.onload = function(e) &#123;</span><br><span class="line">    // 当文件读取完成后，自动调用此函数:</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>当文件读取完成后，JavaScript引擎将自动调用我们设置的回调函数。执行回调函数时，文件已经读取完毕，所以我们可以在回调函数内部安全地获得文件内容。</p>
+<h3 id="跨域"><a href="#跨域" class="headerlink" title="跨域"></a>跨域</h3><p>默认情况下，JavaScript在发送AJAX请求时，URL的域名必须和当前页面完全一致</p>
+<p>完全一致的意思是，域名要相同（<code>www.example.com</code>和<code>example.com</code>不同），协议要相同（<code>http</code>和<code>https</code>不同），端口号要相同（默认是<code>:80</code>端口，它和<code>:8080</code>就不同）。有的浏览器口子松一点，允许端口不同，大多数浏览器都会严格遵守这个限制。</p>
+<p>那是不是用JavaScript无法请求外域（就是其他网站）的URL了呢？方法还是有的，大概有这么几种：</p>
+<p>一是通过Flash插件发送HTTP请求，这种方式可以绕过浏览器的安全限制，但必须安装Flash，并且跟Flash交互。不过Flash用起来麻烦，而且现在用得也越来越少了。</p>
+<p>二是通过在同源域名下架设一个代理服务器来转发，JavaScript负责把请求发送到代理服务器：</p>
+<p>代理服务器再把结果返回，这样就遵守了浏览器的同源策略。这种方式麻烦之处在于需要服务器端额外做开发。</p>
+<p>第三种方式称为JSONP，它有个限制，只能用GET请求，并且要求返回JavaScript。这种方式跨域实际上是利用了浏览器允许跨域引用JavaScript资源：</p>
+<h3 id="CORS"><a href="#CORS" class="headerlink" title="CORS"></a>CORS</h3><p>CORS全称Cross-Origin Resource Sharing，是HTML5规范定义的如何跨域访问资源。</p>
+<p>Origin表示本域，也就是浏览器当前页面的域。当JavaScript向外域（如sina.com）发起请求后，浏览器收到响应后，首先检查<code>Access-Control-Allow-Origin</code>是否包含本域，如果是，则此次跨域请求成功，如果不是，则请求失败，JavaScript将无法获取到响应的任何数据。</p>
+<p>假设本域是<code>my.com</code>，外域是<code>sina.com</code>，只要响应头<code>Access-Control-Allow-Origin</code>为<code>http://my.com</code>，或者是<code>*</code>，本次请求就可以成功。</p>
+<p>可见，跨域能否成功，取决于对方服务器是否愿意给你设置一个正确的<code>Access-Control-Allow-Origin</code>，决定权始终在对方手中。</p>
+<p>上面这种跨域请求，称之为“简单请求”。简单请求包括GET、HEAD和POST（POST的Content-Type类型 仅限<code>application/x-www-form-urlencoded</code>、<code>multipart/form-data</code>和<code>text/plain</code>），并且不能出现任何自定义头（例如，<code>X-Custom: 12345</code>），通常能满足90%的需求。</p>
+<h3 id="Promise-ES6"><a href="#Promise-ES6" class="headerlink" title="Promise(ES6)"></a>Promise(ES6)</h3><p>resolve和reject分别是异步操作成功与失败后的回调</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&#x27;use strict&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// ajax函数将返回Promise对象:</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">ajax</span>(<span class="params">method, url, data</span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> request = <span class="keyword">new</span> <span class="title class_">XMLHttpRequest</span>();</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="keyword">function</span> (<span class="params">resolve, reject</span>) &#123;</span><br><span class="line">        request.<span class="property">onreadystatechange</span> = <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">            <span class="keyword">if</span> (request.<span class="property">readyState</span> === <span class="number">4</span>) &#123;</span><br><span class="line">                <span class="keyword">if</span> (request.<span class="property">status</span> === <span class="number">200</span>) &#123;</span><br><span class="line">                    <span class="title function_">resolve</span>(request.<span class="property">responseText</span>);</span><br><span class="line">                &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                    <span class="title function_">reject</span>(request.<span class="property">status</span>);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;;</span><br><span class="line">        request.<span class="title function_">open</span>(method, url);</span><br><span class="line">        request.<span class="title function_">send</span>(data);</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> log = <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;test-promise-ajax-result&#x27;</span>);</span><br><span class="line"><span class="keyword">var</span> p = <span class="title function_">ajax</span>(<span class="string">&#x27;GET&#x27;</span>, <span class="string">&#x27;/api/categories&#x27;</span>);</span><br><span class="line">p.<span class="title function_">then</span>(<span class="keyword">function</span> (<span class="params">text</span>) &#123; <span class="comment">// 如果AJAX成功，获得响应内容</span></span><br><span class="line">    log.<span class="property">innerText</span> = text;</span><br><span class="line">&#125;).<span class="title function_">catch</span>(<span class="keyword">function</span> (<span class="params">status</span>) &#123; <span class="comment">// 如果AJAX失败，获得响应代码</span></span><br><span class="line">    log.<span class="property">innerText</span> = <span class="string">&#x27;ERROR: &#x27;</span> + status;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="jQuery"><a href="#jQuery" class="headerlink" title="jQuery"></a>jQuery</h2><h3 id="选择器"><a href="#选择器" class="headerlink" title="选择器"></a>选择器</h3><p>可以使用前缀和后缀查找  ^&#x3D;和$&#x3D; 两种符号</p>
+<p>组合选择、层选择器、find在子节点查找，filter筛选不需要的节点</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.gif"
+                alt="" />
+            
+              <p class="site-author-name" itemprop="name"></p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Pan Li</span>
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">19.1k</span>
+  
+</div>
+
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.json";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
